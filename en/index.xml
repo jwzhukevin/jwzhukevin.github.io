@@ -6,15 +6,30 @@
     <description>Recent content on 诸葛凯文</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Oct 2023 08:16:22 +0800</lastBuildDate><atom:link href="https://jwzhukevin.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Nov 2024 21:28:53 +0800</lastBuildDate><atom:link href="https://jwzhukevin.github.io/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>摄影摄像</title>
-      <link>https://jwzhukevin.github.io/en/posts/photos/2023-photo_start/</link>
-      <pubDate>Tue, 17 Oct 2023 08:16:22 +0800</pubDate>
+      <title>First photo</title>
+      <link>https://jwzhukevin.github.io/en/posts/photos/first-photo/</link>
+      <pubDate>Wed, 20 Nov 2024 21:28:53 +0800</pubDate>
       
-      <guid>https://jwzhukevin.github.io/en/posts/photos/2023-photo_start/</guid>
-      <description>&lt;h1 id=&#34;to-do&#34;&gt;To do&lt;/h1&gt;
-&lt;p&gt;存档拍摄的照片&amp;hellip;&lt;/p&gt;</description>
+      <guid>https://jwzhukevin.github.io/en/posts/photos/first-photo/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.ibb.co/1XXmgXF/71b491750e3f0ff5f788352b2724774.jpg&#34; alt=&#34;第一张图片&#34;  title=&#34;成功了吧&#34;  /&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Website Building Diary-2024-11-20</title>
+      <link>https://jwzhukevin.github.io/en/posts/life/website-building-diary-20241120/</link>
+      <pubDate>Wed, 20 Nov 2024 21:09:31 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/life/website-building-diary-20241120/</guid>
+      <description>&lt;p&gt;建站第一次发博，希望自己可以好好维护网站，开始一段新的旅程。&lt;br&gt;
+这一次建站主要靠copy，并没有什么技术含量，但是也花了我两天时间。&lt;br&gt;
+对网站的主要修改包括：&lt;br&gt;
+1.修改网站名称&lt;br&gt;
+2.添加雪花特效&lt;br&gt;
+3.修改自我介绍&lt;br&gt;
+之前尝试过修改其他内容，比如字体，标签什么的，但是最终出现了问题，最终博文可以正常发出，但是在网页上只能看到标题和基本信息，但点击博文就打不开了。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -24,36 +39,6 @@
       
       <guid>https://jwzhukevin.github.io/en/about/</guid>
       <description>大以致远  微以致精 饮水思源</description>
-    </item>
-    
-    <item>
-      <title>学习笔记</title>
-      <link>https://jwzhukevin.github.io/en/posts/notes/2023-notes_start/</link>
-      <pubDate>Mon, 23 Jan 2023 18:59:06 +0800</pubDate>
-      
-      <guid>https://jwzhukevin.github.io/en/posts/notes/2023-notes_start/</guid>
-      <description>&lt;h1 id=&#34;to-do&#34;&gt;To do&lt;/h1&gt;
-&lt;p&gt;记录学习笔记&amp;hellip;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>记录美食</title>
-      <link>https://jwzhukevin.github.io/en/posts/cooking/2023-cook_start/</link>
-      <pubDate>Mon, 23 Jan 2023 18:59:06 +0800</pubDate>
-      
-      <guid>https://jwzhukevin.github.io/en/posts/cooking/2023-cook_start/</guid>
-      <description>&lt;h1 id=&#34;to-do&#34;&gt;To do&lt;/h1&gt;
-&lt;p&gt;记录学习做菜的想法、安排、思考与技术&amp;hellip;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>工具使用</title>
-      <link>https://jwzhukevin.github.io/en/posts/tools/2023-tools_start/</link>
-      <pubDate>Sun, 22 Jan 2023 11:32:31 +0800</pubDate>
-      
-      <guid>https://jwzhukevin.github.io/en/posts/tools/2023-tools_start/</guid>
-      <description>&lt;h1 id=&#34;to-do&#34;&gt;To do&lt;/h1&gt;
-&lt;p&gt;工具使用记录&amp;hellip;&lt;/p&gt;</description>
     </item>
     
     <item>

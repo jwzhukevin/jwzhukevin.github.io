@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Website Building Diary on 诸葛凯文</title>
+    <link>https://jwzhukevin.github.io/en/tags/website-building-diary/</link>
+    <description>Recent content in Website Building Diary on 诸葛凯文</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 20 Nov 2024 21:09:31 +0800</lastBuildDate><atom:link href="https://jwzhukevin.github.io/en/tags/website-building-diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Website Building Diary-2024-11-20</title>
+      <link>https://jwzhukevin.github.io/en/posts/life/website-building-diary-20241120/</link>
+      <pubDate>Wed, 20 Nov 2024 21:09:31 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/life/website-building-diary-20241120/</guid>
+      <description>&lt;p&gt;建站第一次发博，希望自己可以好好维护网站，开始一段新的旅程。&lt;br&gt;
+这一次建站主要靠copy，并没有什么技术含量，但是也花了我两天时间。&lt;br&gt;
+对网站的主要修改包括：&lt;br&gt;
+1.修改网站名称&lt;br&gt;
+2.添加雪花特效&lt;br&gt;
+3.修改自我介绍&lt;br&gt;
+之前尝试过修改其他内容，比如字体，标签什么的，但是最终出现了问题，最终博文可以正常发出，但是在网页上只能看到标题和基本信息，但点击博文就打不开了。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

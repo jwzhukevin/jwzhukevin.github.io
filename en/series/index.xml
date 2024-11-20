@@ -5,34 +5,6 @@
     <link>https://jwzhukevin.github.io/en/series/</link>
     <description>Recent content in Series on 诸葛凯文</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 23 Jan 2023 18:59:06 +0800</lastBuildDate><atom:link href="https://jwzhukevin.github.io/en/series/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Foodie</title>
-      <link>https://jwzhukevin.github.io/en/series/foodie/</link>
-      <pubDate>Mon, 23 Jan 2023 18:59:06 +0800</pubDate>
-      
-      <guid>https://jwzhukevin.github.io/en/series/foodie/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>烹饪秘籍</title>
-      <link>https://jwzhukevin.github.io/en/series/%E7%83%B9%E9%A5%AA%E7%A7%98%E7%B1%8D/</link>
-      <pubDate>Mon, 23 Jan 2023 18:59:06 +0800</pubDate>
-      
-      <guid>https://jwzhukevin.github.io/en/series/%E7%83%B9%E9%A5%AA%E7%A7%98%E7%B1%8D/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>生产工具</title>
-      <link>https://jwzhukevin.github.io/en/series/%E7%94%9F%E4%BA%A7%E5%B7%A5%E5%85%B7/</link>
-      <pubDate>Sun, 22 Jan 2023 11:32:31 +0800</pubDate>
-      
-      <guid>https://jwzhukevin.github.io/en/series/%E7%94%9F%E4%BA%A7%E5%B7%A5%E5%85%B7/</guid>
-      <description></description>
-    </item>
-    
+    <language>en</language><atom:link href="https://jwzhukevin.github.io/en/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
