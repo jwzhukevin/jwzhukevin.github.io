@@ -115,13 +115,13 @@ var _hmt = _hmt || [];
 <meta property="og:description" content="今天算是解决了评论的功能，查询了备案的相关信息，加了头部导航栏" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://jwzhukevin.github.io/en/posts/website-building-diary/website-building-diary-20241122/" />
-<meta property="og:image" content="https://source.unsplash.com/random/940x400?sunshine" /><meta property="article:section" content="posts" />
+<meta property="og:image" content="https://jwzhukevin.github.io/img/settings.png" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-11-22T20:47:35+08:00" />
 <meta property="article:modified_time" content="2024-11-22T20:47:35+08:00" />
 
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://source.unsplash.com/random/940x400?sunshine" />
+<meta name="twitter:image" content="https://jwzhukevin.github.io/img/settings.png" />
 <meta name="twitter:title" content="Website Building Diary-20241122"/>
 <meta name="twitter:description" content="今天算是解决了评论的功能，查询了备案的相关信息，加了头部导航栏"/>
 
@@ -164,10 +164,10 @@ var _hmt = _hmt || [];
   "keywords": [
     "", ""
   ],
-  "articleBody": "今天算是解决了评论的功能，查询了备案的相关信息，加了头部导航栏\n1.评论的功能 我的博客搭建经验 | 有意栽花花满枝是我主要的参考博文，但是这里面的评论功能的添加需要用到 Vercel 部署，而 Vercel 部署的默认域名 *.vercel.app 在中国大陆访问速度较慢甚至无法访问，绑定自己的域名可以提高访问速度，博主有自己的域名，但是我没有，所以按照教学视频来部署之后没有成功，最后显示一切连接都没问题，就是链接不可用。回忆起来页面应该是显示了503的错误。\n所以想尝试 hugging face 来部署，发现他的邮箱功能有点问题，所以最后还是看到了Zeabur 部署，Zeabur 部署和 Vercel 以及 hugging face 要创建 MongoDB，不创建 MongoDB 也能正常使用，但重新部署后数据会丢失！MongoDB 的部署就是需要生成value，key的统一名称都是 [MONGODB_URI](云函数部署 | Twikoo 文档)，所以他的 value 需要记住，不管用什么方法。不然最后数据丢失了得不偿失。\n我的担忧是在Zeabur 部署的最后提示：\n该服务可能会被中止运行 你现在的方案只支持部署静态网页，该服务使用的是容器化部署方式。\n请升级到开发者方案或团队方案来继续部署该服务，否则该服务将会被中止。\n所以最后他能持续多久我不太清楚，但是用起来还可以，可能是我千辛万苦终于构建出正常可用的评论区的错觉，但是总算是有这个功能了。\n2.网站备案的信息 网站备案目前我查询来看本网站还是这个域名诸葛凯文，所以可以不用备案，但是我还是需要找时间绑定使用国内的云服务，比如腾讯云和阿里云，这才比较合规。\n3.网页导航栏 网页导航栏我添加了一个栏目，用来快捷导航到我刚兴趣的博主那。\n",
-  "wordCount" : "657",
+  "articleBody": "今天算是解决了评论的功能，查询了备案的相关信息，加了头部导航栏\n1.评论的功能 在搭建这个网站的时候，我的博客搭建经验 | 有意栽花花满枝是我主要的参考博文，但是博主在里面的评论功能的添加需要用到 Vercel 部署，而 Vercel 部署的默认域名 *.vercel.app 在中国大陆访问速度较慢甚至无法访问，只有绑定自己的域名才可以提高访问速度。博主有自己的域名，但是我没有，所以按照教学视频来部署之后没有成功，最后显示一切连接都没问题，就是链接不可用。回忆起来页面应该是显示了503的错误。\n所以想尝试 hugging face 来部署，发现他的邮箱功能有点问题，所以最后还是看到了Zeabur 部署，Zeabur 部署和 Vercel 以及 hugging face 要创建 MongoDB，不创建 MongoDB 也能正常使用，但重新部署后数据会丢失！\nMongoDB 的部署就是需要生成value，key的统一名称都是 [MONGODB_URI](云函数部署 | Twikoo 文档)，所以他的 value 需要记住，具体可以参考教学视频。\n登录 MongoDB 的部署首先需要[登录](MongoDB 的部署)，没有账号需要用邮箱注册，在邮箱验证后就可以使用注册的邮箱登录。\n新建Cluster 在 MongoDB 上新建一个Cluster，值得注意的是，在 MongoDB 上新建第一个项目是可以选择免费的选项，第二个就不行了，具体原因可能是网站的服务性的需求。Provider 选择 aws ，Region 尽量选择香港。详细看教学视频吧，视频是在 B 站上的，虽然是 2022 年的教程，但在写博文的 2024 年依旧可用。\n链接 最后就是和各大服务平台了链接，基本上都在这里总结了[云部署](云函数部署 | Twikoo 文档)的方案，目前我还尝试出来那个比较好，试过的有 Vercel、hugging face以及 Zeabur，最后只有 Zeabur搭建起来可以用，但是每次搭建起来一天后机会自动删除：\n[该服务](云函数部署 | Twikoo 文档)可能会被中止运行，而且现在的方案只支持部署静态网页，该服务使用的是容器化部署方式。\n请升级到开发者方案或团队方案来继续部署该服务，否则该服务将会被中止。\n所以最后他能持续多久我不太清楚，但是用起来还可以，可能是我千辛万苦终于构建出正常可用的评论区的错觉，但是总算是有这个功能了。\n2.网站备案的信息 网站备案目前我查询来看本网站还是这个域名诸葛凯文，所以可以不用备案，但是我还是需要找时间绑定使用国内的云服务，比如腾讯云和阿里云，这才比较合规。\n3.网页导航栏 网页导航栏我添加了一个栏目，用来快捷导航到我刚兴趣的博主那。\n",
+  "wordCount" : "979",
   "inLanguage": "en",
-  "image":"https://source.unsplash.com/random/940x400?sunshine","datePublished": "2024-11-22T20:47:35+08:00",
+  "image":"https://jwzhukevin.github.io/img/settings.png","datePublished": "2024-11-22T20:47:35+08:00",
   "dateModified": "2024-11-22T20:47:35+08:00",
   "author":[{
     "@type": "Person",
@@ -273,13 +273,13 @@ var _hmt = _hmt || [];
                 </a>
             </li>
             <li>
-                <a href="https://jwzhukevin.github.io/en/friends" title="🚇️ 西出阳关">
-                <span>🚇️ 西出阳关</span>
+                <a href="https://jwzhukevin.github.io/en/collection" title="🚇️ 浮生一梦">
+                <span>🚇️ 浮生一梦</span>
                 </a>
             </li>
             <li>
-                <a href="https://jwzhukevin.github.io/en/collection" title="🚇️ 遗珠弃碧">
-                <span>🚇️ 遗珠弃碧</span>
+                <a href="https://jwzhukevin.github.io/en/friends" title="🚇️ 西出阳关">
+                <span>🚇️ 西出阳关</span>
                 </a>
             </li>
         </ul>
@@ -333,7 +333,7 @@ var _hmt = _hmt || [];
     
     <span id="post_meta_style_3">
         <span class="fa fa-file-word-o"></span>
-        <span>657 words
+        <span>979 words
             &nbsp;&nbsp;
         </span>
     </span>
@@ -377,7 +377,7 @@ var _hmt = _hmt || [];
                                 }
                                 twikoo.getCommentsCount({
                                     envId: "https://jwzhukevin.free.zeabur.app", 
-                                region:  null , 
+                                region: "ap-shenyang", 
                                 urls: [ 
                                     
                                     finalUrl,
@@ -410,9 +410,15 @@ var _hmt = _hmt || [];
 
         <div class="inner"><ul>
                 <li>
-                    <a href="#1%e8%af%84%e8%ae%ba%e7%9a%84%e5%8a%9f%e8%83%bd" aria-label="1.评论的功能">1.评论的功能</a></li>
+                    <a href="#1%e8%af%84%e8%ae%ba%e7%9a%84%e5%8a%9f%e8%83%bd" aria-label="1.评论的功能">1.评论的功能</a><ul>
+                        
                 <li>
-                    <a href="#%e8%af%a5%e6%9c%8d%e5%8a%a1%e5%8f%af%e8%83%bd%e4%bc%9a%e8%a2%ab%e4%b8%ad%e6%ad%a2%e8%bf%90%e8%a1%8c" aria-label="该服务可能会被中止运行">该服务可能会被中止运行</a></li>
+                    <a href="#%e7%99%bb%e5%bd%95" aria-label="登录">登录</a></li>
+                <li>
+                    <a href="#%e6%96%b0%e5%bb%bacluster" aria-label="新建Cluster">新建Cluster</a></li>
+                <li>
+                    <a href="#%e9%93%be%e6%8e%a5" aria-label="链接">链接</a></li></ul>
+                </li>
                 <li>
                     <a href="#2%e7%bd%91%e7%ab%99%e5%a4%87%e6%a1%88%e7%9a%84%e4%bf%a1%e6%81%af" aria-label="2.网站备案的信息">2.网站备案的信息</a></li>
                 <li>
@@ -483,11 +489,16 @@ var _hmt = _hmt || [];
 </script>
         <div class="post-content"><p>今天算是解决了评论的功能，查询了备案的相关信息，加了头部导航栏</p>
 <h3 id="1评论的功能">1.评论的功能<a hidden class="anchor" aria-hidden="true" href="#1评论的功能">#</a></h3>
-<p><a href="https://blog.hjroyal.top/posts/tools/2022-09-myblog/" target="_blank" rel="noopener nofollow noreferrer" >我的博客搭建经验 | 有意栽花花满枝</a>是我主要的参考博文，但是这里面的评论功能的添加需要用到 Vercel 部署，而 Vercel 部署的默认域名 <code>*.vercel.app</code> 在中国大陆访问速度较慢甚至无法访问，绑定自己的域名可以提高访问速度，博主有自己的域名，但是我没有，所以按照<a href="https://www.bilibili.com/video/BV1Fh411e7ZH/" target="_blank" rel="noopener nofollow noreferrer" >教学视频</a>来部署之后没有成功，最后显示一切连接都没问题，就是链接不可用。回忆起来页面应该是显示了503的错误。</p>
-<p>所以想尝试 hugging face 来部署，发现他的邮箱功能有点问题，所以最后还是看到了<a href="https://twikoo.js.org/backend.html#zeabur-%E9%83%A8%E7%BD%B2" target="_blank" rel="noopener nofollow noreferrer" >Zeabur 部署</a>，Zeabur 部署和 Vercel 以及 hugging face 要创建 MongoDB，不创建 MongoDB 也能正常使用，但重新部署后数据会丢失！MongoDB 的部署就是需要生成value，key的统一名称都是 [MONGODB_URI](<a href="https://twikoo.js.org/backend.html#vercel-%E9%83%A8%E7%BD%B2" target="_blank" rel="noopener nofollow noreferrer" >云函数部署 | Twikoo 文档</a>)，所以他的 value 需要记住，不管用什么方法。不然最后数据丢失了得不偿失。</p>
-<p>我的担忧是在<a href="https://twikoo.js.org/backend.html#zeabur-%E9%83%A8%E7%BD%B2" target="_blank" rel="noopener nofollow noreferrer" >Zeabur 部署</a>的最后提示：</p>
-<h3 id="该服务可能会被中止运行">该服务可能会被中止运行<a hidden class="anchor" aria-hidden="true" href="#该服务可能会被中止运行">#</a></h3>
-<p>你现在的方案只支持部署静态网页，该服务使用的是容器化部署方式。</p>
+<p>在搭建这个网站的时候，<a href="https://blog.hjroyal.top/posts/tools/2022-09-myblog/" target="_blank" rel="noopener nofollow noreferrer" >我的博客搭建经验 | 有意栽花花满枝</a>是我主要的参考博文，但是博主在里面的评论功能的添加需要用到 Vercel 部署，而 Vercel 部署的默认域名 <code>*.vercel.app</code> 在中国大陆访问速度较慢甚至无法访问，只有绑定自己的域名才可以提高访问速度。博主有自己的域名，但是我没有，所以按照<a href="https://www.bilibili.com/video/BV1Fh411e7ZH/" target="_blank" rel="noopener nofollow noreferrer" >教学视频</a>来部署之后没有成功，最后显示一切连接都没问题，就是链接不可用。回忆起来页面应该是显示了503的错误。</p>
+<p>所以想尝试 hugging face 来部署，发现他的邮箱功能有点问题，所以最后还是看到了<a href="https://twikoo.js.org/backend.html#zeabur-%E9%83%A8%E7%BD%B2" target="_blank" rel="noopener nofollow noreferrer" >Zeabur 部署</a>，Zeabur 部署和 Vercel 以及 hugging face 要创建 MongoDB，不创建 MongoDB 也能正常使用，但重新部署后数据会丢失！</p>
+<p>MongoDB 的部署就是需要生成value，key的统一名称都是 [MONGODB_URI](<a href="https://twikoo.js.org/backend.html#vercel-%E9%83%A8%E7%BD%B2" target="_blank" rel="noopener nofollow noreferrer" >云函数部署 | Twikoo 文档</a>)，所以他的 value 需要记住，具体可以参考<a href="https://www.bilibili.com/video/BV1Fh411e7ZH/" target="_blank" rel="noopener nofollow noreferrer" >教学视频</a>。</p>
+<h4 id="登录">登录<a hidden class="anchor" aria-hidden="true" href="#登录">#</a></h4>
+<p>MongoDB 的部署首先需要[登录](MongoDB 的部署)，没有账号需要用邮箱注册，在邮箱验证后就可以使用注册的邮箱登录。</p>
+<h4 id="新建cluster">新建Cluster<a hidden class="anchor" aria-hidden="true" href="#新建cluster">#</a></h4>
+<p>在 <a href="https://cloud.mongodb.com/" target="_blank" rel="noopener nofollow noreferrer" >MongoDB</a> 上新建一个Cluster，值得注意的是，在 MongoDB 上新建第一个项目是可以选择免费的选项，第二个就不行了，具体原因可能是网站的服务性的需求。Provider 选择 aws ，Region 尽量选择香港。详细看<a href="https://www.bilibili.com/video/BV1Fh411e7ZH/" target="_blank" rel="noopener nofollow noreferrer" >教学视频</a>吧，视频是在 B 站上的，虽然是 2022 年的教程，但在写博文的 2024 年依旧可用。</p>
+<h4 id="链接">链接<a hidden class="anchor" aria-hidden="true" href="#链接">#</a></h4>
+<p>最后就是和各大服务平台了链接，基本上都在这里总结了[云部署](<a href="https://twikoo.js.org/backend.html" target="_blank" rel="noopener nofollow noreferrer" >云函数部署 | Twikoo 文档</a>)的方案，目前我还尝试出来那个比较好，试过的有 Vercel、hugging face以及 Zeabur，最后只有 Zeabur搭建起来可以用，但是每次搭建起来一天后机会自动删除：</p>
+<p>[该服务](<a href="https://twikoo.js.org/backend.html#zeabur-%E9%83%A8%E7%BD%B2" target="_blank" rel="noopener nofollow noreferrer" >云函数部署 | Twikoo 文档</a>)可能会被中止运行，而且现在的方案只支持部署静态网页，该服务使用的是容器化部署方式。</p>
 <p>请升级到开发者方案或团队方案来继续部署该服务，否则该服务将会被中止。</p>
 <p>所以最后他能持续多久我不太清楚，但是用起来还可以，可能是我千辛万苦终于构建出正常可用的评论区的错觉，但是总算是有这个功能了。</p>
 <h3 id="2网站备案的信息">2.网站备案的信息<a hidden class="anchor" aria-hidden="true" href="#2网站备案的信息">#</a></h3>
@@ -504,6 +515,11 @@ var _hmt = _hmt || [];
 
             
 <nav class="paginav">
+  <a class="prev" href="https://jwzhukevin.github.io/en/posts/tools/github-2fa%E7%AE%80%E5%8D%95%E6%95%99%E7%A8%8B/">
+    <span class="title">« 上一页</span>
+    <br>
+    <span>Github-2FA简单教程</span>
+  </a>
   <a class="next" href="https://jwzhukevin.github.io/en/posts/photos/20241121/">
     <span class="title">下一页 »</span>
     <br>
@@ -588,7 +604,7 @@ var _hmt = _hmt || [];
             envId: "https://jwzhukevin.free.zeabur.app",
             el: "#tcomment",
             lang: 'zh-CN',
-            region:  null ,
+            region: "ap-shenyang",
         path: window.TWIKOO_MAGIC_PATH||window.location.pathname,
         })
     </script>
@@ -606,9 +622,9 @@ var _hmt = _hmt || [];
         <a href="https0://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
     </span>
     
-    <i class="fas fa-bell"></i> 运行 <span id="running days">0</span> 天
+    <i class="fas fa-bell"></i> 运行 <span id="days">0</span> 天
     
-    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script> -->
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     
     <span>
         Copyright
@@ -618,7 +634,7 @@ var _hmt = _hmt || [];
         All Rights Reserved 
     </span>
     <span><a href="/copyright/">版权说明</a></span>
-    <span>5 篇 1941 字</span>
+    <span>6 篇 3563 字</span>
 </footer>
 
     
