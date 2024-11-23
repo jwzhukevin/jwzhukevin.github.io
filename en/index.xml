@@ -6,7 +6,16 @@
     <description>Recent content on 诸葛凯文</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 23 Nov 2024 15:43:58 +0800</lastBuildDate><atom:link href="https://jwzhukevin.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Nov 2024 18:16:48 +0800</lastBuildDate><atom:link href="https://jwzhukevin.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Website Building Diary-20241123</title>
+      <link>https://jwzhukevin.github.io/en/posts/website-building-diary/website-building-diary-20241123/</link>
+      <pubDate>Sat, 23 Nov 2024 18:16:48 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/website-building-diary/website-building-diary-20241123/</guid>
+      <description>&lt;p&gt;今天的内容一大部分不在网站上，在于折腾评论区的构建上面。昨晚没有完全构建好评论区，而是在平板上再次部署 Zeabur 之后才好用，但是每次只有一天的额度。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Github-2FA简单教程</title>
       <link>https://jwzhukevin.github.io/en/posts/tools/github-2fa%E7%AE%80%E5%8D%95%E6%95%99%E7%A8%8B/</link>
@@ -84,10 +93,10 @@
     
     <item>
       <title>First photo</title>
-      <link>https://jwzhukevin.github.io/en/posts/photos/20241120-first-photo/</link>
+      <link>https://jwzhukevin.github.io/en/posts/photos/20241120/</link>
       <pubDate>Wed, 20 Nov 2024 21:28:53 +0800</pubDate>
       
-      <guid>https://jwzhukevin.github.io/en/posts/photos/20241120-first-photo/</guid>
+      <guid>https://jwzhukevin.github.io/en/posts/photos/20241120/</guid>
       <description>&lt;p&gt;我的头像
 &lt;img loading=&#34;lazy&#34; src=&#34;https://i.ibb.co/1XXmgXF/71b491750e3f0ff5f788352b2724774.jpg&#34; alt=&#34;&#34;  title=&#34;zjWxm&#34;  /&gt;
 &lt;br&gt;&lt;/p&gt;</description>

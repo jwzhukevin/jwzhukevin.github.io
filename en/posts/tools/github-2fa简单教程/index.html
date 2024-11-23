@@ -164,8 +164,8 @@ var _hmt = _hmt || [];
   "keywords": [
     "", ""
   ],
-  "articleBody": "2023 年开始，你知道在 Github 上有代码，就要求你进行 Github 2FA(Two-Factor Authentication/两因素认证)，\n其实官方的[帮助文档](Authentication documentation - GitHub Docs)里面的方法已经很好了，这里也有很多教程：\n[Github实战]双重认证2FA 如何 设置/更改[手把手][2022]1.背景2.第一次设置2.1第一步点击Sett - 掘金\ngithub 2fa 中国区认证解决-备忘录-JerryCoding个人博客\n要在GitHub上实现双重身份验证（2FA），可以按照以下步骤进行设置：\n设置双重身份验证的步骤 登录GitHub：\n访问 GitHub 并登录您的账户。 进入设置：\n点击右上角的头像，选择“Settings”（设置）。 选择密码和身份验证：\n在左侧菜单中，找到并点击“Password and authentication”（密码和身份验证）。 启用双重认证：\n在“双重认证”部分，点击“Enable two-factor authentication”（启用双重认证）。 选择认证方式：\nGitHub提供多种方式进行双重认证，包括使用短信、GitHub App或TOTP（基于时间的一次性密码）应用。推荐使用TOTP应用，因为它更安全。 生成绑定二维码：\nGitHub会显示一个二维码，您可以使用TOTP应用（如Google Authenticator或Microsoft Authenticator）扫描此二维码。二维码中包含了生成验证码所需的密钥。 输入验证码：\n扫描二维码后，TOTP应用将生成一个六位数字的验证码。将该验证码输入GitHub的验证页面，并点击“Verify code”（验证代码）。 保存恢复代码：\n一旦双重认证成功启用，GitHub会提供一组恢复代码。请务必将这些代码保存在安全的地方，以便在无法访问TOTP应用时使用。 完成设置：\n点击“Done”（完成）以结束设置过程。 注意事项 使用浏览器扩展是比较方便的，浏览器扩展的[GIthub项目](GitHub - Authenticator-Extension/Authenticator: Authenticator generates 2-Step Verification codes in your browser.)，目前支持 [Edge](Authenticator: 2FA Client - Microsoft Edge Addons) 和 Google ，使用时直接扫码就可以，我在第一次验证时扫码总是不成功，就可以使用\n支持2FA的应用程序 Google Authenticator\n平台：iOS, Android 特点：生成基于时间的一次性密码（TOTP），简单易用，广泛兼容各种服务。 Authy\n平台：iOS, Android, Desktop 特点：支持多设备同步，提供备份功能，用户界面友好，支持多种服务。 TOTP Authenticator\n平台：iOS, Android\n特点：生成一次性验证码，支持云同步和多账户管理，兼容大多数提供2FA的服务，如GitHub、Google、Facebook等\nMicrosoft Authenticator\n平台：iOS, Android 特点：除了生成TOTP，还支持推送通知和密码管理功能，适合使用Microsoft服务的用户。 LastPass Authenticator\n平台：iOS, Android 特点：与LastPass密码管理器集成，支持TOTP和推送通知，便于管理多个账户。 FreeOTP\n平台：iOS, Android 特点：开源应用程序，简单且安全，支持TOTP和HOTP。 Duo Mobile\n平台：iOS, Android 特点：企业级安全解决方案，支持TOTP和推送通知，适合企业用户使用。 这个使用 app 的方式对于我来说是劝退的，因为我的手机上这些软件都装不了。\n再说一句，如果你本身有国外的号码，那就更方便，因为直接可以验证码验证，但是如果你没有，还是老老实实按上面两种来。\n",
-  "wordCount" : "1300",
+  "articleBody": "2023 年开始，你知道在 Github 上有代码，就要求你进行 Github 2FA(Two-Factor Authentication/两因素认证)，\n其实官方的帮助文档里面的方法已经很好了，这里也有很多教程：\n[Github实战]双重认证2FA 如何 设置/更改[手把手][2022]\ngithub 2fa 中国区认证解决-备忘录\n要在GitHub上实现双重身份验证（2FA），可以按照以下步骤进行设置：\n设置双重身份验证的步骤 登录GitHub：\n访问 GitHub 并登录您的账户。 进入设置：\n点击右上角的头像，选择“Settings”（设置）。 选择密码和身份验证：\n在左侧菜单中，找到并点击“Password and authentication”（密码和身份验证）。 启用双重认证：\n在“双重认证”部分，点击“Enable two-factor authentication”（启用双重认证）。 选择认证方式：\nGitHub提供多种方式进行双重认证，包括使用短信、GitHub App或TOTP（基于时间的一次性密码）应用。推荐使用TOTP应用，因为它更安全。 生成绑定二维码：\nGitHub会显示一个二维码，您可以使用TOTP应用（如Google Authenticator或Microsoft Authenticator）扫描此二维码。二维码中包含了生成验证码所需的密钥。 输入验证码：\n扫描二维码后，TOTP应用将生成一个六位数字的验证码。将该验证码输入GitHub的验证页面，并点击“Verify code”（验证代码）。 保存恢复代码：\n一旦双重认证成功启用，GitHub会提供一组恢复代码。请务必将这些代码保存在安全的地方，以便在无法访问TOTP应用时使用。 完成设置：\n点击“Done”（完成）以结束设置过程。 注意事项 使用浏览器扩展是比较方便的，浏览器扩展的GIthub项目，目前支持 Edge 和 Google ，使用时直接扫码就可以，我在第一次验证时扫码总是不成功，就可以使用\n支持2FA的应用程序 Google Authenticator\n平台：iOS, Android 特点：生成基于时间的一次性密码（TOTP），简单易用，广泛兼容各种服务。 Authy\n平台：iOS, Android, Desktop 特点：支持多设备同步，提供备份功能，用户界面友好，支持多种服务。 TOTP Authenticator\n平台：iOS, Android\n特点：生成一次性验证码，支持云同步和多账户管理，兼容大多数提供2FA的服务，如GitHub、Google、Facebook等\nMicrosoft Authenticator\n平台：iOS, Android 特点：除了生成TOTP，还支持推送通知和密码管理功能，适合使用Microsoft服务的用户。 LastPass Authenticator\n平台：iOS, Android 特点：与LastPass密码管理器集成，支持TOTP和推送通知，便于管理多个账户。 FreeOTP\n平台：iOS, Android 特点：开源应用程序，简单且安全，支持TOTP和HOTP。 Duo Mobile\n平台：iOS, Android 特点：企业级安全解决方案，支持TOTP和推送通知，适合企业用户使用。 这个使用 app 的方式对于我来说是劝退的，因为我的手机上这些软件都装不了。\n再说一句，如果你本身有国外的号码，那就更方便，因为直接可以验证码验证，但是如果你没有，还是老老实实按上面两种来。\n",
+  "wordCount" : "1200",
   "inLanguage": "en",
   "image":"https://jwzhukevin.github.io/img/github.png","datePublished": "2024-11-23T15:43:58+08:00",
   "dateModified": "2024-11-23T15:43:58+08:00",
@@ -333,7 +333,7 @@ var _hmt = _hmt || [];
     
     <span id="post_meta_style_3">
         <span class="fa fa-file-word-o"></span>
-        <span>1300 words
+        <span>1200 words
             &nbsp;&nbsp;
         </span>
     </span>
@@ -480,9 +480,9 @@ var _hmt = _hmt || [];
     }
 </script>
         <div class="post-content"><p>2023 年开始，你知道在 Github 上有代码，就要求你进行 Github 2FA(Two-Factor Authentication/两因素认证)，</p>
-<p>其实官方的[帮助文档](<a href="https://docs.github.com/en/authentication" target="_blank" rel="noopener nofollow noreferrer" >Authentication documentation - GitHub Docs</a>)里面的<a href="https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/accessing-github-using-two-factor-authentication" target="_blank" rel="noopener nofollow noreferrer" >方法</a>已经很好了，这里也有很多教程：</p>
-<p><a href="https://juejin.cn/post/7154286738280546317" target="_blank" rel="noopener nofollow noreferrer" >[Github实战]双重认证2FA 如何 设置/更改[手把手][2022]1.背景2.第一次设置2.1第一步点击Sett - 掘金</a></p>
-<p><a href="https://www.jerrycoding.com/article/github-f2a/" target="_blank" rel="noopener nofollow noreferrer" >github 2fa 中国区认证解决-备忘录-JerryCoding个人博客</a></p>
+<p>其实官方的<a href="%28https://docs.github.com/en/authentication%29">帮助文档</a>里面的<a href="https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/accessing-github-using-two-factor-authentication" target="_blank" rel="noopener nofollow noreferrer" >方法</a>已经很好了，这里也有很多教程：</p>
+<p><a href="https://juejin.cn/post/7154286738280546317" target="_blank" rel="noopener nofollow noreferrer" >[<strong>Github实战]双重认证2FA 如何 设置/更改[手把手][2022]</strong></a></p>
+<p><a href="https://www.jerrycoding.com/article/github-f2a/" target="_blank" rel="noopener nofollow noreferrer" ><strong>github 2fa 中国区认证解决-备忘录</strong></a></p>
 <p>要在GitHub上实现双重身份验证（2FA），可以按照以下步骤进行设置：</p>
 <h2 id="设置双重身份验证的步骤">设置双重身份验证的步骤<a hidden class="anchor" aria-hidden="true" href="#设置双重身份验证的步骤">#</a></h2>
 <ol>
@@ -542,7 +542,7 @@ var _hmt = _hmt || [];
 </li>
 </ol>
 <h2 id="注意事项">注意事项<a hidden class="anchor" aria-hidden="true" href="#注意事项">#</a></h2>
-<p>使用浏览器扩展是比较方便的，浏览器扩展的[GIthub项目](<a href="https://github.com/Authenticator-Extension/Authenticator" target="_blank" rel="noopener nofollow noreferrer" >GitHub - Authenticator-Extension/Authenticator: Authenticator generates 2-Step Verification codes in your browser.</a>)，目前支持 [Edge](<a href="https://microsoftedge.microsoft.com/addons/detail/authenticator-2fa-client/ocglkepbibnalbgmbachknglpdipeoio" target="_blank" rel="noopener nofollow noreferrer" >Authenticator: 2FA Client - Microsoft Edge Addons</a>) 和 <a href="https://chromewebstore.google.com/detail/%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81%E5%99%A8/bhghoamapcdpbohphigoooaddinpkbai?pli=1" target="_blank" rel="noopener nofollow noreferrer" >Google</a> ，使用时直接扫码就可以，我在第一次验证时扫码总是不成功，就可以使用</p>
+<p>使用浏览器扩展是比较方便的，浏览器扩展的<a href="https://github.com/Authenticator-Extension/Authenticator" target="_blank" rel="noopener nofollow noreferrer" >GIthub项目</a>，目前支持 <a href="%28https://microsoftedge.microsoft.com/addons/detail/authenticator-2fa-client/ocglkepbibnalbgmbachknglpdipeoio%29">Edge</a> 和 <a href="https://chromewebstore.google.com/detail/%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81%E5%99%A8/bhghoamapcdpbohphigoooaddinpkbai?pli=1" target="_blank" rel="noopener nofollow noreferrer" >Google</a> ，使用时直接扫码就可以，我在第一次验证时扫码总是不成功，就可以使用</p>
 <h2 id="支持2fa的应用程序">支持2FA的应用程序<a hidden class="anchor" aria-hidden="true" href="#支持2fa的应用程序">#</a></h2>
 <ol>
 <li>
@@ -611,6 +611,11 @@ var _hmt = _hmt || [];
 
             
 <nav class="paginav">
+  <a class="prev" href="https://jwzhukevin.github.io/en/posts/website-building-diary/website-building-diary-20241123/">
+    <span class="title">« 上一页</span>
+    <br>
+    <span>Website Building Diary-20241123</span>
+  </a>
   <a class="next" href="https://jwzhukevin.github.io/en/posts/website-building-diary/website-building-diary-20241122/">
     <span class="title">下一页 »</span>
     <br>
@@ -725,7 +730,7 @@ var _hmt = _hmt || [];
         All Rights Reserved 
     </span>
     <span><a href="/copyright/">版权说明</a></span>
-    <span>6 篇 3563 字</span>
+    <span>7 篇 4001 字</span>
 </footer>
 
     
