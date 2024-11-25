@@ -164,8 +164,8 @@ var _hmt = _hmt || [];
   "keywords": [
     "", ""
   ],
-  "articleBody": "今天的内容一大部分不在网站上，在于折腾评论区的构建上面。昨晚没有完全构建好评论区，而是在平板上再次部署 Zeabur 之后才好用，但是每次只有一天的额度。\n1.为 Github 完成二次身份验证 具体可以看我的这篇文章，这篇文章也是我今天的更新之一。总之是在使用 edge 的扩展，扫码功能一开始出错，只能用密钥，使用了一次密钥之后再次验证就可以扫码了。\n2.修改好了底部网站运行时间的错误 之前底部的运行时间和首页介绍页面的时间调用参数是不一样的，原代码是原始的调用参数，而我在加入新的参数后，把原始调用参数弄混了，所以出现了错误。\n总之，hugo 里面的参数调用似乎是在 yml 文件里面调用过后，再在 hmtl 网页文件里面调用就会失去数值，好像是会被归零，同样的一个数值用两个字符来储存就可以解决。\n3.给添加的几个导航介绍栏丰富规整了一下内容 主要就是参照原来的介绍页的内容来的，没有什么可以值得讲的。\n4.给每个文章添加了预览图片 之前一直不知道在原来的博客模板里面有这个功能，是在昨天用平板浏览网页的时候发现的，平板浏览博客封面会展示图片错误，所以今天特地在网络上找了一些图片，用于标识博文的类型或者是主要内容。\n目前已经写了四篇网站更新日记了，我觉得这比较有意义，可以准时中总结我学到的内容。但是更新频率可以放缓，因为内容实在是不是很多。\n",
-  "wordCount" : "538",
+  "articleBody": "今天的内容一大部分不在网站上，在于折腾评论区的构建上面。昨晚没有完全构建好评论区，而是在平板上再次部署 Zeabur 之后才好用，但是每次只有一天的额度。\n1.为 Github 完成二次身份验证 具体可以看我的这篇文章，这篇文章也是我今天的更新之一。总之是在使用 edge 的扩展，扫码功能一开始出错，只能用密钥，使用了一次密钥之后再次验证就可以扫码了。\n2.修改好了底部网站运行时间的错误 之前底部的运行时间和首页介绍页面的时间调用参数是不一样的，原代码是原始的调用参数，而我在加入新的参数后，把原始调用参数弄混了，所以出现了错误。\n总之，hugo 里面的参数调用似乎是在 yml 文件里面调用过后，再在 hmtl 网页文件里面调用就会失去数值，好像是会被归零，同样的一个数值用两个字符来储存就可以解决。\n3.给添加的几个导航介绍栏丰富规整了一下内容 主要就是参照原来的介绍页的内容来的，没有什么可以值得讲的。\n4.给每个文章添加了预览图片 之前一直不知道在原来的博客模板里面有这个功能，是在昨天用平板浏览网页的时候发现的，平板浏览博客封面会展示图片错误，所以今天特地在网络上找了一些图片，用于标识博文的类型或者是主要内容。\n目前已经写了四篇网站更新日记了，我觉得这比较有意义，可以准时总结我学到的内容。\n但是，我担心自己会把这个当做是任务，反而适得其反，所以以后摸鱼的日子会更多，更新频率可以放缓，因为内容实在是比较少，但是每一次都会完整地更新，次要的细节就可以忽略，主要的功能添加什么的就可以按教程的形式来，每一次的建站日记就是阶段性的总结。\n",
+  "wordCount" : "634",
   "inLanguage": "en",
   "image":"https://jwzhukevin.github.io/img/settings.png","datePublished": "2024-11-23T18:16:48+08:00",
   "dateModified": "2024-11-23T18:16:48+08:00",
@@ -218,18 +218,20 @@ var _hmt = _hmt || [];
 <header class="header">
     <nav class="nav">
         <div class="logo">
+		    
             <a href="https://jwzhukevin.github.io/en/" accesskey="h" title="诸葛凯文 (Alt + H)">
             <img src="https://jwzhukevin.github.io/img/logo.webp" alt="logo" aria-label="logo"
                  height="32">诸葛凯文</a>
             <div class="logo-switches">
+			
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                         fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
                          stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                         fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
                          stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
                         <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -247,6 +249,7 @@ var _hmt = _hmt || [];
             </div>
         </div>
         <ul id="menu">
+		
             <li>
                 <a href="https://jwzhukevin.github.io/en/search/" title="🔍 寻寻觅觅 (Alt &#43; /)" accesskey=/>
                 <span>🔍 寻寻觅觅</span>
@@ -333,7 +336,7 @@ var _hmt = _hmt || [];
     
     <span id="post_meta_style_3">
         <span class="fa fa-file-word-o"></span>
-        <span>538 words
+        <span>634 words
             &nbsp;&nbsp;
         </span>
     </span>
@@ -377,7 +380,7 @@ var _hmt = _hmt || [];
                                 }
                                 twikoo.getCommentsCount({
                                     envId: "https://jwzhukevin.free.zeabur.app", 
-                                region: "ap-shenyang", 
+                                region:  null , 
                                 urls: [ 
                                     
                                     finalUrl,
@@ -491,7 +494,8 @@ var _hmt = _hmt || [];
 <p>主要就是参照原来的介绍页的内容来的，没有什么可以值得讲的。</p>
 <h4 id="4给每个文章添加了预览图片">4.给每个文章添加了预览图片<a hidden class="anchor" aria-hidden="true" href="#4给每个文章添加了预览图片">#</a></h4>
 <p>之前一直不知道在原来的博客模板里面有这个功能，是在昨天用平板浏览网页的时候发现的，平板浏览博客封面会展示图片错误，所以今天特地在网络上找了一些图片，用于标识博文的类型或者是主要内容。</p>
-<p>目前已经写了四篇网站更新日记了，我觉得这比较有意义，可以准时中总结我学到的内容。但是更新频率可以放缓，因为内容实在是不是很多。</p>
+<p>目前已经写了四篇网站更新日记了，我觉得这比较有意义，可以准时总结我学到的内容。</p>
+<p>但是，我担心自己会把这个当做是任务，反而适得其反，所以以后摸鱼的日子会更多，更新频率可以放缓，因为内容实在是比较少，但是每一次都会完整地更新，次要的细节就可以忽略，主要的功能添加什么的就可以按教程的形式来，每一次的建站日记就是阶段性的总结。</p>
 
 
         </div>
@@ -586,7 +590,7 @@ var _hmt = _hmt || [];
             envId: "https://jwzhukevin.free.zeabur.app",
             el: "#tcomment",
             lang: 'zh-CN',
-            region: "ap-shenyang",
+            region:  null ,
         path: window.TWIKOO_MAGIC_PATH||window.location.pathname,
         })
     </script>
@@ -615,8 +619,8 @@ var _hmt = _hmt || [];
         <a href="https://jwzhukevin.github.io/en/" style="color:#939393;">诸葛凯文</a>
         All Rights Reserved 
     </span>
-    <span><a href="/copyright/">版权说明</a></span>
-    <span>7 篇 4001 字</span>
+    
+    <span>7 篇 4172 字</span>
 </footer>
 
     
@@ -854,7 +858,7 @@ var _hmt = _hmt || [];
 
 
 
-<script src="https://api.vvhan.com/api/script/bolang"></script> -->
+
 
 
 
