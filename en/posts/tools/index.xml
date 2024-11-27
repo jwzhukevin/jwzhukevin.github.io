@@ -13,7 +13,8 @@
       <pubDate>Wed, 27 Nov 2024 20:12:14 +0800</pubDate>
       
       <guid>https://jwzhukevin.github.io/en/posts/tools/wanniertools/</guid>
-      <description>&lt;p&gt;WannierTools是一款专注于拓扑材料研究的开源软件，广泛应用于计算材料的电子结构和拓扑性质。&lt;/p&gt;</description>
+      <description>&lt;p&gt;WannierTools是一款专注于拓扑材料研究的开源软件，广泛应用于计算材料的电子结构和拓扑性质。&lt;/p&gt;
+&lt;p&gt;拿强拓扑绝缘体 Bi2Se3 为例，在研究它的性质的同时，通常需要使用 VASP 进行 DFT 计算，之后就需要使用 wannier90 进行紧束缚的计算，最后就需要使用 WannierTools 对其拓扑性质进行分析，比如拓扑数、表面态和表面自旋。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -31,7 +32,9 @@
       <pubDate>Tue, 26 Nov 2024 15:57:03 +0800</pubDate>
       
       <guid>https://jwzhukevin.github.io/en/posts/tools/git-push-%E6%8C%87%E4%BB%A4%E4%B8%8D%E5%93%8D%E5%BA%94%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
-      <description>&lt;p&gt;这是目前让我比较恼火的问题，好几次辛辛苦苦编辑好博客准备同步到仓库，到最后输入指令：&lt;/p&gt;</description>
+      <description>&lt;p&gt;这是目前让我比较恼火的问题，好几次辛辛苦苦编辑好博客准备同步到仓库，到最后输入指令：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push origin master
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后就会等待半分钟，最后毫无例外会显示传输不成功，之后就需要再一次对网页做一点点修改，保证有新内容的变动，之后就重新生成网站，重设仓库地址，同步代码：&lt;/p&gt;</description>
     </item>
     
     <item>

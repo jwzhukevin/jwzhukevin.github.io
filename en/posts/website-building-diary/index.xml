@@ -13,7 +13,9 @@
       <pubDate>Sat, 23 Nov 2024 18:16:48 +0800</pubDate>
       
       <guid>https://jwzhukevin.github.io/en/posts/website-building-diary/website-building-diary-20241123/</guid>
-      <description>&lt;p&gt;今天的内容一大部分不在网站上，在于折腾评论区的构建上面。昨晚没有完全构建好评论区，而是在平板上再次部署 Zeabur 之后才好用，但是每次只有一天的额度。&lt;/p&gt;</description>
+      <description>&lt;p&gt;今天的内容一大部分不在网站上，在于折腾评论区的构建上面。昨晚没有完全构建好评论区，而是在平板上再次部署 Zeabur 之后才好用，但是每次只有一天的额度。&lt;/p&gt;
+&lt;h4 id=&#34;1为-github-完成二次身份验证&#34;&gt;1.为 Github 完成二次身份验证&lt;/h4&gt;
+&lt;p&gt;具体可以看我的&lt;a href=&#34;https://jwzhukevin.github.io/en/posts/tools/github-2fa%E7%AE%80%E5%8D%95%E6%95%99%E7%A8%8B/&#34; target=&#34;_blank&#34; rel=&#34;noopener nofollow noreferrer&#34; &gt;这篇文章&lt;/a&gt;，这篇文章也是我今天的更新之一。总之是在使用 edge 的扩展，扫码功能一开始出错，只能用密钥，使用了一次密钥之后再次验证就可以扫码了。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -22,7 +24,9 @@
       <pubDate>Fri, 22 Nov 2024 20:47:35 +0800</pubDate>
       
       <guid>https://jwzhukevin.github.io/en/posts/website-building-diary/website-building-diary-20241122/</guid>
-      <description>&lt;p&gt;今天算是解决了评论的功能，查询了备案的相关信息，加了头部导航栏&lt;/p&gt;</description>
+      <description>&lt;p&gt;今天算是解决了评论的功能，查询了备案的相关信息，加了头部导航栏&lt;/p&gt;
+&lt;h3 id=&#34;1评论的功能&#34;&gt;1.评论的功能&lt;/h3&gt;
+&lt;p&gt;在搭建这个网站的时候，&lt;a href=&#34;https://blog.hjroyal.top/posts/tools/2022-09-myblog/&#34; target=&#34;_blank&#34; rel=&#34;noopener nofollow noreferrer&#34; &gt;我的博客搭建经验 | 有意栽花花满枝&lt;/a&gt;是我主要的参考博文，但是博主在里面的评论功能的添加需要用到 Vercel 部署，而 Vercel 部署的默认域名 &lt;code&gt;*.vercel.app&lt;/code&gt; 在中国大陆访问速度较慢甚至无法访问，只有绑定自己的域名才可以提高访问速度。博主有自己的域名，但是我没有，所以按照&lt;a href=&#34;https://www.bilibili.com/video/BV1Fh411e7ZH/&#34; target=&#34;_blank&#34; rel=&#34;noopener nofollow noreferrer&#34; &gt;教学视频&lt;/a&gt;来部署之后没有成功，最后显示一切连接都没问题，就是链接不可用。回忆起来页面应该是显示了503的错误。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -31,7 +35,10 @@
       <pubDate>Thu, 21 Nov 2024 16:10:01 +0800</pubDate>
       
       <guid>https://jwzhukevin.github.io/en/posts/website-building-diary/website-building-diary-20241121/</guid>
-      <description>&lt;p&gt;今天的修改比较杂，我尽量一项一项回忆，顺序应该会比较乱。&lt;/p&gt;</description>
+      <description>&lt;p&gt;今天的修改比较杂，我尽量一项一项回忆，顺序应该会比较乱。&lt;/p&gt;
+&lt;h3 id=&#34;添加的内容&#34;&gt;添加的内容&lt;/h3&gt;
+&lt;h4 id=&#34;1雪花特效&#34;&gt;1.雪花特效&lt;/h4&gt;
+&lt;p&gt;这是我比较喜欢的内容，加上了底部波浪，也修正了新年灯笼的特效，预计在新年加上。推荐使用的&lt;a href=&#34;https://api.vvhan.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener nofollow noreferrer&#34; &gt;特效的网址&lt;/a&gt;。&lt;/p&gt;</description>
     </item>
     
     <item>
