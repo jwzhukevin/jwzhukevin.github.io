@@ -115,13 +115,13 @@ var _hmt = _hmt || [];
 <meta property="og:description" content="这是目前让我比较恼火的问题，好几次辛辛苦苦编辑好博客准备同步到仓库，到最后输入指令：" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://jwzhukevin.github.io/en/posts/tools/git-push-%E6%8C%87%E4%BB%A4%E4%B8%8D%E5%93%8D%E5%BA%94%E7%9A%84%E9%97%AE%E9%A2%98/" />
-<meta property="og:image" content="https://source.unsplash.com/random/940x400?sunshine" /><meta property="article:section" content="posts" />
+<meta property="og:image" content="https://jwzhukevin.github.io/img/github.png" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-11-26T15:57:03+08:00" />
 <meta property="article:modified_time" content="2024-11-26T15:57:03+08:00" />
 
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://source.unsplash.com/random/940x400?sunshine" />
+<meta name="twitter:image" content="https://jwzhukevin.github.io/img/github.png" />
 <meta name="twitter:title" content="Git push 指令不响应的问题"/>
 <meta name="twitter:description" content="这是目前让我比较恼火的问题，好几次辛辛苦苦编辑好博客准备同步到仓库，到最后输入指令："/>
 
@@ -164,10 +164,10 @@ var _hmt = _hmt || [];
   "keywords": [
     "", ""
   ],
-  "articleBody": "这是目前让我比较恼火的问题，好几次辛辛苦苦编辑好博客准备同步到仓库，到最后输入指令：\n\u0026 git push origin master 然后就会等待半分钟，最后毫无例外会显示传输不成功，之后就需要再一次对网页做一点点修改，保证有新内容的变动，之后就重新生成网站，重设仓库地址，同步代码：\n\u0026 cd .. \u0026 hugo \u0026 cd public \u0026 git remote set-url origin https://github.com/yourusername/yourrepository.git \u0026 git init \u0026 git add . \u0026 git commit -m \"some information\" \u0026 git push origin master 这还不一定成功，就很难受。所以就一直在寻找问题的解决方案。\n",
-  "wordCount" : "183",
+  "articleBody": "这是目前让我比较恼火的问题，好几次辛辛苦苦编辑好博客准备同步到仓库，到最后输入指令：\ngit push origin master 然后就会等待半分钟，最后毫无例外会显示传输不成功，之后就需要再一次对网页做一点点修改，保证有新内容的变动，之后就重新生成网站，重设仓库地址，同步代码：\ncd .. hugo cd public git remote set-url origin https://github.com/yourusername/yourrepository.git git init git add . git commit -m \"some information\"（通常是时间） git push origin master 这还不一定成功，就很难受。所以就一直在寻找问题的解决方案。\n未忘待续…\n",
+  "wordCount" : "208",
   "inLanguage": "en",
-  "image":"https://source.unsplash.com/random/940x400?sunshine","datePublished": "2024-11-26T15:57:03+08:00",
+  "image":"https://jwzhukevin.github.io/img/github.png","datePublished": "2024-11-26T15:57:03+08:00",
   "dateModified": "2024-11-26T15:57:03+08:00",
   "author":[{
     "@type": "Person",
@@ -331,7 +331,7 @@ var _hmt = _hmt || [];
     
     <span id="post_meta_style_3">
         <span class="fa fa-file-word-o"></span>
-        <span>183 words
+        <span>208 words
             &nbsp;&nbsp;
         </span>
     </span>
@@ -346,8 +346,7 @@ var _hmt = _hmt || [];
         <span class="fa fa-tags" style="opacity: 0.8"></span>
         <span>
             <span class="post-tags-meta">
-                <a href="https://jwzhukevin.github.io/en/tags/none/" style="color: var(--secondary)!important;">None</a>
-                &nbsp;<a href="https://jwzhukevin.github.io/en/tags/git/" style="color: var(--secondary)!important;">Git</a>
+                <a href="https://jwzhukevin.github.io/en/tags/git/" style="color: var(--secondary)!important;">Git</a>
             </span>
         </span>
     </span>
@@ -402,17 +401,18 @@ var _hmt = _hmt || [];
 </div>
         </header> 
         <div class="post-content"><p>这是目前让我比较恼火的问题，好几次辛辛苦苦编辑好博客准备同步到仓库，到最后输入指令：</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&amp; git push origin master
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>git push origin master
 </span></span></code></pre></div><p>然后就会等待半分钟，最后毫无例外会显示传输不成功，之后就需要再一次对网页做一点点修改，保证有新内容的变动，之后就重新生成网站，重设仓库地址，同步代码：</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&amp; cd ..
-</span></span><span style="display:flex;"><span>&amp; hugo
-</span></span><span style="display:flex;"><span>&amp; cd public
-</span></span><span style="display:flex;"><span>&amp; git remote set-url origin https://github.com/yourusername/yourrepository.git
-</span></span><span style="display:flex;"><span>&amp; git init
-</span></span><span style="display:flex;"><span>&amp; git add .
-</span></span><span style="display:flex;"><span>&amp; git commit -m &#34;some information&#34;
-</span></span><span style="display:flex;"><span>&amp; git push origin master
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>cd ..
+</span></span><span style="display:flex;"><span>hugo
+</span></span><span style="display:flex;"><span>cd public
+</span></span><span style="display:flex;"><span>git remote set-url origin https://github.com/yourusername/yourrepository.git
+</span></span><span style="display:flex;"><span>git init
+</span></span><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m &#34;some information&#34;（通常是时间）
+</span></span><span style="display:flex;"><span>git push origin master
 </span></span></code></pre></div><p>这还不一定成功，就很难受。所以就一直在寻找问题的解决方案。</p>
+<p>未忘待续&hellip;</p>
 
 
         </div>
@@ -423,17 +423,22 @@ var _hmt = _hmt || [];
 
             
 <nav class="paginav">
-  <a class="next" href="https://jwzhukevin.github.io/en/posts/website-building-diary/website-building-diary-20241126/">
+  <a class="prev" href="https://jwzhukevin.github.io/en/posts/tools/colorful-icons-for-yaml-file/">
+    <span class="title">« 上一页</span>
+    <br>
+    <span>Colorful icons for YAML file</span>
+  </a>
+  <a class="next" href="https://jwzhukevin.github.io/en/posts/photos/20241126/">
     <span class="title">下一页 »</span>
     <br>
-    <span>Test</span>
+    <span>2024沈阳第一场雪</span>
   </a>
 </nav>
 
 
 <div class="share-buttons">
     <a target="_blank" rel="noopener noreferrer" aria-label="share Git push 指令不响应的问题 on twitter"
-       href="https://twitter.com/intent/tweet/?text=Git%20push%20%e6%8c%87%e4%bb%a4%e4%b8%8d%e5%93%8d%e5%ba%94%e7%9a%84%e9%97%ae%e9%a2%98&amp;url=https%3a%2f%2fjwzhukevin.github.io%2fen%2fposts%2ftools%2fgit-push-%25E6%258C%2587%25E4%25BB%25A4%25E4%25B8%258D%25E5%2593%258D%25E5%25BA%2594%25E7%259A%2584%25E9%2597%25AE%25E9%25A2%2598%2f&amp;hashtags=None%2cGit">
+       href="https://twitter.com/intent/tweet/?text=Git%20push%20%e6%8c%87%e4%bb%a4%e4%b8%8d%e5%93%8d%e5%ba%94%e7%9a%84%e9%97%ae%e9%a2%98&amp;url=https%3a%2f%2fjwzhukevin.github.io%2fen%2fposts%2ftools%2fgit-push-%25E6%258C%2587%25E4%25BB%25A4%25E4%25B8%258D%25E5%2593%258D%25E5%25BA%2594%25E7%259A%2584%25E9%2597%25AE%25E9%25A2%2598%2f&amp;hashtags=Git">
     <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
             <path
                     d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />
@@ -537,7 +542,7 @@ var _hmt = _hmt || [];
         All Rights Reserved 
     </span>
     
-    <span>11 篇 4373 字</span>
+    <span>12 篇 6141 字</span>
 </footer>
 
     
