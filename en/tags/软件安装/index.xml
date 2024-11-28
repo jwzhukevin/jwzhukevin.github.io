@@ -13,8 +13,8 @@
       <pubDate>Wed, 27 Nov 2024 20:12:14 +0800</pubDate>
       
       <guid>https://jwzhukevin.github.io/en/posts/tools/wanniertools-%E5%AE%89%E8%A3%85/</guid>
-      <description>&lt;p&gt;WannierTools 是一款专注于拓扑材料研究的开源软件，广泛应用于计算材料的电子结构和拓扑性质。&lt;/p&gt;
-&lt;p&gt;拿强拓扑绝缘体 Bi2Se3 为例，在研究它的性质的同时，通常需要使用 VASP 进行 DFT 计算，之后就需要使用 wannier90 进行紧束缚的计算，最后就需要使用 WannierTools 对其拓扑性质进行分析，比如拓扑数、表面态和表面自旋。&lt;/p&gt;</description>
+      <description>&lt;p&gt;WannierTools 是一款专注于拓扑材料研究的开源软件，适用于计算材料的电子结构和拓扑性质。&lt;/p&gt;
+&lt;p&gt;以强拓扑绝缘体 Bi2Se3 为例，在研究它的性质时，通常需要使用 VASP 进行 DFT 计算，之后就需要使用 wannier90 进行紧束缚的计算，最后就需要使用 WannierTools 对其拓扑性质进行分析，比如拓扑数、表面态和表面自旋。&lt;/p&gt;</description>
     </item>
     
   </channel>
