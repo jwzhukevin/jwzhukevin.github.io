@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>诸葛凯文</title>
-    <link>https://jwzhukevin.github.io/en/</link>
+    <link>http://localhost:1313/en/</link>
     <description>Recent content on 诸葛凯文</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 27 Nov 2024 20:12:14 +0800</lastBuildDate><atom:link href="https://jwzhukevin.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Nov 2024 20:12:14 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WannierTools 安装</title>
-      <link>https://jwzhukevin.github.io/en/posts/tools/wanniertools-%E5%AE%89%E8%A3%85/</link>
+      <link>http://localhost:1313/en/posts/tools/wanniertools-%E5%AE%89%E8%A3%85/</link>
       <pubDate>Wed, 27 Nov 2024 20:12:14 +0800</pubDate>
       
-      <guid>https://jwzhukevin.github.io/en/posts/tools/wanniertools-%E5%AE%89%E8%A3%85/</guid>
+      <guid>http://localhost:1313/en/posts/tools/wanniertools-%E5%AE%89%E8%A3%85/</guid>
       <description>&lt;p&gt;WannierTools 是一款专注于拓扑材料研究的开源软件，适用于计算材料的电子结构和拓扑性质。&lt;/p&gt;
 &lt;p&gt;以强拓扑绝缘体 Bi2Se3 为例，在研究它的性质时，通常需要使用 VASP 进行 DFT 计算，之后就需要使用 wannier90 进行紧束缚的计算，最后就需要使用 WannierTools 对其拓扑性质进行分析，比如拓扑数、表面态和表面自旋。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Colorful icons for YAML file</title>
-      <link>https://jwzhukevin.github.io/en/posts/tools/colorful-icons-for-yaml-file/</link>
+      <link>http://localhost:1313/en/posts/tools/colorful-icons-for-yaml-file/</link>
       <pubDate>Wed, 27 Nov 2024 10:24:27 +0800</pubDate>
       
-      <guid>https://jwzhukevin.github.io/en/posts/tools/colorful-icons-for-yaml-file/</guid>
+      <guid>http://localhost:1313/en/posts/tools/colorful-icons-for-yaml-file/</guid>
       <description>&lt;p&gt;在构建网站时，hugo主题下的文件大多数都是 YAML 的文件格式，所以如果想给网站添加一些表情图标，最方便的就是使用可以直接复制进去的 icons，我在这里总结了一些图标，方便之后查找和使用。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Git push 指令不响应的问题</title>
-      <link>https://jwzhukevin.github.io/en/posts/tools/git-push-%E6%8C%87%E4%BB%A4%E4%B8%8D%E5%93%8D%E5%BA%94%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+      <link>http://localhost:1313/en/posts/tools/git-push-%E6%8C%87%E4%BB%A4%E4%B8%8D%E5%93%8D%E5%BA%94%E7%9A%84%E9%97%AE%E9%A2%98/</link>
       <pubDate>Tue, 26 Nov 2024 15:57:03 +0800</pubDate>
       
-      <guid>https://jwzhukevin.github.io/en/posts/tools/git-push-%E6%8C%87%E4%BB%A4%E4%B8%8D%E5%93%8D%E5%BA%94%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+      <guid>http://localhost:1313/en/posts/tools/git-push-%E6%8C%87%E4%BB%A4%E4%B8%8D%E5%93%8D%E5%BA%94%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
       <description>&lt;p&gt;这是目前让我比较恼火的问题，好几次辛辛苦苦编辑好博客准备同步到仓库，到最后输入指令：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push origin master
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后就会等待半分钟，最后毫无例外会显示传输不成功，之后就需要再一次对网页做一点点修改，保证有新内容的变动，之后就重新生成网站，重设仓库地址，同步代码：&lt;/p&gt;</description>
@@ -39,10 +39,10 @@
     
     <item>
       <title>2024沈阳第一场雪</title>
-      <link>https://jwzhukevin.github.io/en/posts/photos/20241126/</link>
+      <link>http://localhost:1313/en/posts/photos/20241126/</link>
       <pubDate>Tue, 26 Nov 2024 08:48:20 +0800</pubDate>
       
-      <guid>https://jwzhukevin.github.io/en/posts/photos/20241126/</guid>
+      <guid>http://localhost:1313/en/posts/photos/20241126/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.ibb.co/StvV0jZ/IMG-20241126-073935.jpg&#34; alt=&#34;&#34;  title=&#34;雪&#34;  /&gt;
 
 &lt;img loading=&#34;lazy&#34; src=&#34;https://i.ibb.co/6BdDqbB/IMG-20241126-073841.jpg&#34; alt=&#34;&#34;  title=&#34;雪&#34;  /&gt;
@@ -61,20 +61,20 @@
     
     <item>
       <title>今天晚上下雪了</title>
-      <link>https://jwzhukevin.github.io/en/posts/life/%E4%BB%8A%E5%A4%A9%E6%99%9A%E4%B8%8A%E4%B8%8B%E9%9B%AA%E4%BA%86/</link>
+      <link>http://localhost:1313/en/posts/life/%E4%BB%8A%E5%A4%A9%E6%99%9A%E4%B8%8A%E4%B8%8B%E9%9B%AA%E4%BA%86/</link>
       <pubDate>Mon, 25 Nov 2024 21:27:40 +0800</pubDate>
       
-      <guid>https://jwzhukevin.github.io/en/posts/life/%E4%BB%8A%E5%A4%A9%E6%99%9A%E4%B8%8A%E4%B8%8B%E9%9B%AA%E4%BA%86/</guid>
+      <guid>http://localhost:1313/en/posts/life/%E4%BB%8A%E5%A4%A9%E6%99%9A%E4%B8%8A%E4%B8%8B%E9%9B%AA%E4%BA%86/</guid>
       <description>&lt;p&gt;晚上说是在下雪，可是没下&lt;/p&gt;
 &lt;p&gt;明天开始阵雪&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Website Building Diary-20241123</title>
-      <link>https://jwzhukevin.github.io/en/posts/website-building-diary/website-building-diary-20241123/</link>
+      <link>http://localhost:1313/en/posts/website-building-diary/website-building-diary-20241123/</link>
       <pubDate>Sat, 23 Nov 2024 18:16:48 +0800</pubDate>
       
-      <guid>https://jwzhukevin.github.io/en/posts/website-building-diary/website-building-diary-20241123/</guid>
+      <guid>http://localhost:1313/en/posts/website-building-diary/website-building-diary-20241123/</guid>
       <description>&lt;p&gt;今天的内容一大部分不在网站上，在于折腾评论区的构建上面。昨晚没有完全构建好评论区，而是在平板上再次部署 Zeabur 之后才好用，但是每次只有一天的额度。&lt;/p&gt;
 &lt;h4 id=&#34;1为-github-完成二次身份验证&#34;&gt;1.为 Github 完成二次身份验证&lt;/h4&gt;
 &lt;p&gt;具体可以看我的&lt;a href=&#34;https://jwzhukevin.github.io/en/posts/tools/github-2fa%E7%AE%80%E5%8D%95%E6%95%99%E7%A8%8B/&#34; target=&#34;_blank&#34; rel=&#34;noopener nofollow noreferrer&#34; &gt;这篇文章&lt;/a&gt;，这篇文章也是我今天的更新之一。总之是在使用 edge 的扩展，扫码功能一开始出错，只能用密钥，使用了一次密钥之后再次验证就可以扫码了。&lt;/p&gt;</description>
@@ -82,19 +82,19 @@
     
     <item>
       <title>Github-2FA简单教程</title>
-      <link>https://jwzhukevin.github.io/en/posts/tools/github-2fa%E7%AE%80%E5%8D%95%E6%95%99%E7%A8%8B/</link>
+      <link>http://localhost:1313/en/posts/tools/github-2fa%E7%AE%80%E5%8D%95%E6%95%99%E7%A8%8B/</link>
       <pubDate>Sat, 23 Nov 2024 15:43:58 +0800</pubDate>
       
-      <guid>https://jwzhukevin.github.io/en/posts/tools/github-2fa%E7%AE%80%E5%8D%95%E6%95%99%E7%A8%8B/</guid>
+      <guid>http://localhost:1313/en/posts/tools/github-2fa%E7%AE%80%E5%8D%95%E6%95%99%E7%A8%8B/</guid>
       <description>&lt;p&gt;2023 年开始，你只要开始向 Github 上传你的项目和代码，官方就要求你进行 Github 2FA(Two-Factor Authentication/两因素认证)，这是为了保证每个创作者的代码安全，也可以提醒每一位创作者自己的账号安全。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Website Building Diary-20241122</title>
-      <link>https://jwzhukevin.github.io/en/posts/website-building-diary/website-building-diary-20241122/</link>
+      <link>http://localhost:1313/en/posts/website-building-diary/website-building-diary-20241122/</link>
       <pubDate>Fri, 22 Nov 2024 20:47:35 +0800</pubDate>
       
-      <guid>https://jwzhukevin.github.io/en/posts/website-building-diary/website-building-diary-20241122/</guid>
+      <guid>http://localhost:1313/en/posts/website-building-diary/website-building-diary-20241122/</guid>
       <description>&lt;p&gt;今天算是解决了评论的功能，查询了备案的相关信息，加了头部导航栏&lt;/p&gt;
 &lt;h3 id=&#34;1评论的功能&#34;&gt;1.评论的功能&lt;/h3&gt;
 &lt;p&gt;在搭建这个网站的时候，&lt;a href=&#34;https://blog.hjroyal.top/posts/tools/2022-09-myblog/&#34; target=&#34;_blank&#34; rel=&#34;noopener nofollow noreferrer&#34; &gt;我的博客搭建经验 | 有意栽花花满枝&lt;/a&gt;是我主要的参考博文，但是博主在里面的评论功能的添加需要用到 Vercel 部署，而 Vercel 部署的默认域名 &lt;code&gt;*.vercel.app&lt;/code&gt; 在中国大陆访问速度较慢甚至无法访问，只有绑定自己的域名才可以提高访问速度。博主有自己的域名，但是我没有，所以按照&lt;a href=&#34;https://www.bilibili.com/video/BV1Fh411e7ZH/&#34; target=&#34;_blank&#34; rel=&#34;noopener nofollow noreferrer&#34; &gt;教学视频&lt;/a&gt;来部署之后没有成功，最后显示一切连接都没问题，就是链接不可用。回忆起来页面应该是显示了503的错误。&lt;/p&gt;</description>
@@ -102,28 +102,28 @@
     
     <item>
       <title>🌟半日闲</title>
-      <link>https://jwzhukevin.github.io/en/collection/</link>
+      <link>http://localhost:1313/en/collection/</link>
       <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://jwzhukevin.github.io/en/collection/</guid>
+      <guid>http://localhost:1313/en/collection/</guid>
       <description>诸葛凯文</description>
     </item>
     
     <item>
       <title>🌿还故人</title>
-      <link>https://jwzhukevin.github.io/en/friends/</link>
+      <link>http://localhost:1313/en/friends/</link>
       <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://jwzhukevin.github.io/en/friends/</guid>
+      <guid>http://localhost:1313/en/friends/</guid>
       <description>诸葛凯文</description>
     </item>
     
     <item>
       <title>早晨的随手拍和这几天的月亮</title>
-      <link>https://jwzhukevin.github.io/en/posts/photos/20241121/</link>
+      <link>http://localhost:1313/en/posts/photos/20241121/</link>
       <pubDate>Thu, 21 Nov 2024 20:53:27 +0800</pubDate>
       
-      <guid>https://jwzhukevin.github.io/en/posts/photos/20241121/</guid>
+      <guid>http://localhost:1313/en/posts/photos/20241121/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.ibb.co/xC668bC/c515bd70566ec7ef9ad4445b319564d.jpg&#34; alt=&#34;&#34;  title=&#34;早晨&#34;  /&gt;
 &lt;br&gt;
 &lt;img loading=&#34;lazy&#34; src=&#34;https://i.ibb.co/dmTbK5V/1b6edb44b7a1c2b74ab6b56b0cd271d.jpg&#34; alt=&#34;&#34;  title=&#34;月亮&#34;  /&gt;
@@ -140,10 +140,10 @@
     
     <item>
       <title>Website Building Diary-20241121</title>
-      <link>https://jwzhukevin.github.io/en/posts/website-building-diary/website-building-diary-20241121/</link>
+      <link>http://localhost:1313/en/posts/website-building-diary/website-building-diary-20241121/</link>
       <pubDate>Thu, 21 Nov 2024 16:10:01 +0800</pubDate>
       
-      <guid>https://jwzhukevin.github.io/en/posts/website-building-diary/website-building-diary-20241121/</guid>
+      <guid>http://localhost:1313/en/posts/website-building-diary/website-building-diary-20241121/</guid>
       <description>&lt;p&gt;今天的修改比较杂，我尽量一项一项回忆，顺序应该会比较乱。&lt;/p&gt;
 &lt;h3 id=&#34;添加的内容&#34;&gt;添加的内容&lt;/h3&gt;
 &lt;h4 id=&#34;1雪花特效&#34;&gt;1.雪花特效&lt;/h4&gt;
@@ -152,10 +152,10 @@
     
     <item>
       <title>First photo</title>
-      <link>https://jwzhukevin.github.io/en/posts/photos/20241120/</link>
+      <link>http://localhost:1313/en/posts/photos/20241120/</link>
       <pubDate>Wed, 20 Nov 2024 21:28:53 +0800</pubDate>
       
-      <guid>https://jwzhukevin.github.io/en/posts/photos/20241120/</guid>
+      <guid>http://localhost:1313/en/posts/photos/20241120/</guid>
       <description>&lt;p&gt;我的头像
 &lt;img loading=&#34;lazy&#34; src=&#34;https://i.ibb.co/1XXmgXF/71b491750e3f0ff5f788352b2724774.jpg&#34; alt=&#34;&#34;  title=&#34;zjWxm&#34;  /&gt;
 &lt;br&gt;&lt;/p&gt;</description>
@@ -163,10 +163,10 @@
     
     <item>
       <title>Website Building Diary-20241120</title>
-      <link>https://jwzhukevin.github.io/en/posts/website-building-diary/website-building-diary-20241120/</link>
+      <link>http://localhost:1313/en/posts/website-building-diary/website-building-diary-20241120/</link>
       <pubDate>Wed, 20 Nov 2024 21:09:31 +0800</pubDate>
       
-      <guid>https://jwzhukevin.github.io/en/posts/website-building-diary/website-building-diary-20241120/</guid>
+      <guid>http://localhost:1313/en/posts/website-building-diary/website-building-diary-20241120/</guid>
       <description>&lt;p&gt;建站第一次发博，希望自己可以好好维护网站，开始一段新的旅程。&lt;br&gt;
 这一次建站主要靠copy，并没有什么技术含量，但是也花了我两天时间。&lt;br&gt;
 对网站的主要修改包括：&lt;br&gt;
@@ -178,19 +178,19 @@
     
     <item>
       <title>🙋🏻‍♂两袖清风</title>
-      <link>https://jwzhukevin.github.io/en/about/</link>
+      <link>http://localhost:1313/en/about/</link>
       <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://jwzhukevin.github.io/en/about/</guid>
+      <guid>http://localhost:1313/en/about/</guid>
       <description>诸葛凯文</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://jwzhukevin.github.io/en/copyright/</link>
+      <link>http://localhost:1313/en/copyright/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jwzhukevin.github.io/en/copyright/</guid>
+      <guid>http://localhost:1313/en/copyright/</guid>
       <description>&lt;p style=&#34;font-size: 30px;font-weight:bold;text-align: center ;font-family:&#34;sans-serif&#34; &gt;♾️ 版权说明 ♾️&lt;/p&gt;
 &lt;p&gt;本站（blog.hjroyal.top）文章均为原创文章，如有转载皆已注明。&lt;/p&gt;
 &lt;p&gt;本站采用 &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-nd/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener nofollow noreferrer&#34; &gt;CC BY-NC-ND 4.0&lt;/a&gt; 协议，转载时请遵守以下条款：&lt;/p&gt;</description>
