@@ -164,8 +164,8 @@ var _hmt = _hmt || [];
   "keywords": [
     "", ""
   ],
-  "articleBody": "这是目前让我比较恼火的问题，好几次辛辛苦苦编辑好博客准备同步到仓库，到最后输入指令：\ngit push origin master 然后就会等待半分钟，最后毫无例外会显示传输不成功，之后就需要再一次对网页做一点点修改，保证有新内容的变动，之后就重新生成网站，重设仓库地址，同步代码：\ncd .. hugo cd public git remote set-url origin https://github.com/yourusername/yourrepository.git git init git add . git commit -m \"some information\"（通常是时间） git push origin master 这还不一定成功，就很难受。所以就一直在寻找问题的解决方案。\n未完待续…\n",
-  "wordCount" : "208",
+  "articleBody": "这是目前让我比较恼火的问题，好几次辛辛苦苦编辑好博客准备同步到仓库，到最后输入指令：\ngit push origin master 然后就会等待半分钟，最后毫无例外会显示传输不成功，之后就需要再一次对网页做一点点修改，保证有新内容的变动，之后就重新生成网站，重设仓库地址，同步代码：\ncd .. hugo cd public git remote set-url origin https://github.com/yourusername/yourrepository.git git init git add . git commit -m \"some information\"（通常是时间） git push origin master 这还不一定成功，就很难受。所以就一直在寻找问题的解决方案。\n下面添加一个断连后重新连接的方法：\ncd .. hugo cd public git remote add origin https://github.com/yourusername/yourrepository.git git remote -v git remote remove origin（取消与远程仓库的连接） git init（初始化仓库） git remote add origin https://github.com/yourusername/yourrepository.git（连接新仓库） git status（检查状态） git branch（检查分支） git checkout br（创建分支）（如果是重连就不需要） git add . git commit -m \"some information\"（通常是时间） git push origin master/git push -u master（master就是你的分支名字） git checkout main（切换到主分支） git merge br（本地合并） git push（推送到远程） 未完待续…\n",
+  "wordCount" : "473",
   "inLanguage": "en",
   "image":"https://jwzhukevin.github.io/img/github.png","datePublished": "2024-11-26T15:57:03+08:00",
   "dateModified": "2024-11-26T15:57:03+08:00",
@@ -331,7 +331,7 @@ var _hmt = _hmt || [];
     
     <span id="post_meta_style_3">
         <span class="fa fa-file-word-o"></span>
-        <span>208 words
+        <span>473 words
             &nbsp;&nbsp;
         </span>
     </span>
@@ -412,7 +412,25 @@ var _hmt = _hmt || [];
 </span></span><span style="display:flex;"><span>git commit -m &#34;some information&#34;（通常是时间）
 </span></span><span style="display:flex;"><span>git push origin master
 </span></span></code></pre></div><p>这还不一定成功，就很难受。所以就一直在寻找问题的解决方案。</p>
-<p>未完待续&hellip;</p>
+<p>下面添加一个断连后重新连接的方法：</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>cd ..
+</span></span><span style="display:flex;"><span>hugo
+</span></span><span style="display:flex;"><span>cd public
+</span></span><span style="display:flex;"><span>git remote add origin https://github.com/yourusername/yourrepository.git
+</span></span><span style="display:flex;"><span>git remote -v
+</span></span><span style="display:flex;"><span>git remote remove origin（取消与远程仓库的连接）
+</span></span><span style="display:flex;"><span>git init（初始化仓库）
+</span></span><span style="display:flex;"><span>git remote add origin https://github.com/yourusername/yourrepository.git（连接新仓库）
+</span></span><span style="display:flex;"><span>git status（检查状态）
+</span></span><span style="display:flex;"><span>git branch（检查分支）
+</span></span><span style="display:flex;"><span>git checkout br（创建分支）（如果是重连就不需要）
+</span></span><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m &#34;some information&#34;（通常是时间）
+</span></span><span style="display:flex;"><span>git push origin master/git push -u master（master就是你的分支名字）
+</span></span><span style="display:flex;"><span>git checkout main（切换到主分支）
+</span></span><span style="display:flex;"><span>git merge br（本地合并）
+</span></span><span style="display:flex;"><span>git  push（推送到远程）
+</span></span></code></pre></div><p>未完待续&hellip;</p>
 
 
         </div>
@@ -542,7 +560,7 @@ var _hmt = _hmt || [];
         All Rights Reserved 
     </span>
     
-    <span>12 篇 6135 字</span>
+    <span>12 篇 6400 字</span>
 </footer>
 
     
