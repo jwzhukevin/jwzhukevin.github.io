@@ -3,7 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jwzhukevin.github.io/en/posts/</loc>
-    <lastmod>2024-11-27T20:12:14+08:00</lastmod>
+    <lastmod>2024-12-30T20:36:42+08:00</lastmod>
+  </url><url>
+    <loc>https://jwzhukevin.github.io/en/posts/notes/2024%E7%A7%91%E7%A0%94%E5%B0%8F%E8%AE%B0/</loc>
+    <lastmod>2024-12-30T20:36:42+08:00</lastmod>
+  </url><url>
+    <loc>https://jwzhukevin.github.io/en/tags/none/</loc>
+    <lastmod>2024-12-30T20:36:42+08:00</lastmod>
+  </url><url>
+    <loc>https://jwzhukevin.github.io/en/posts/notes/</loc>
+    <lastmod>2024-12-30T20:36:42+08:00</lastmod>
+  </url><url>
+    <loc>https://jwzhukevin.github.io/en/</loc>
+    <lastmod>2024-12-30T20:36:42+08:00</lastmod>
+  </url><url>
+    <loc>https://jwzhukevin.github.io/en/tags/</loc>
+    <lastmod>2024-12-30T20:36:42+08:00</lastmod>
   </url><url>
     <loc>https://jwzhukevin.github.io/en/series/</loc>
     <lastmod>2024-11-27T20:12:14+08:00</lastmod>
@@ -23,13 +38,7 @@
     <loc>https://jwzhukevin.github.io/en/posts/tools/wanniertools-%E5%AE%89%E8%A3%85/</loc>
     <lastmod>2024-11-27T20:12:14+08:00</lastmod>
   </url><url>
-    <loc>https://jwzhukevin.github.io/en/</loc>
-    <lastmod>2024-11-27T20:12:14+08:00</lastmod>
-  </url><url>
     <loc>https://jwzhukevin.github.io/en/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/</loc>
-    <lastmod>2024-11-27T20:12:14+08:00</lastmod>
-  </url><url>
-    <loc>https://jwzhukevin.github.io/en/tags/</loc>
     <lastmod>2024-11-27T20:12:14+08:00</lastmod>
   </url><url>
     <loc>https://jwzhukevin.github.io/en/posts/tools/colorful-icons-for-yaml-file/</loc>
@@ -119,7 +128,5 @@
     <loc>https://jwzhukevin.github.io/en/categories/</loc>
   </url><url>
     <loc>https://jwzhukevin.github.io/en/posts/cooking/</loc>
-  </url><url>
-    <loc>https://jwzhukevin.github.io/en/posts/notes/</loc>
   </url>
 </urlset>
