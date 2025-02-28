@@ -164,8 +164,8 @@ var _hmt = _hmt || [];
   "keywords": [
     "", ""
   ],
-  "articleBody": "开门见山\n软件的官网有资料可以查询FPLO，本人目前查到的资料有FPLO14.00版本的新手指导，Use of FPLO and Quanty to perform ab-initio ligand field multiplets calculations，之后查到会陆续加上。\n总而言之，这个软件是商用的，我并没有在网络上查到太多的教程和相关的信息。相对于VASP，肯定信息会少很多，不主流但是会好用很多。有操作界面，在有第一性计算的基础上上手很简单。\nNEW 新建你的项目，我的操作系统是ubantu，也就是Linux系统。\nmkdir new 进入文件内\ncd new 打开设置界面，也就是熟悉的软件操作界面\nfedit22.00-62-x86_64 ！！！要注意的是fedit指令后面接的是软件的版本和操作的系统。\nfedit：软件名称 ​22.00：版本，通常主版本号和次版本号的结构，比如22.00可能代表主版本22，次版本00 ​62：构建号或补丁号，表示该版本的第62次构建，或者补丁版本号 ​x86_64：系统架构，适用于64位的x86架构处理器 所以，了解自己的情况再想想怎么输入指令，或者，你知道Linux系统下按Tab键可以自动补全。\n之后就会弹出一个操作界面，高效简洁。\n键盘点击字母（不分大小写）X即可进入参数设置。\nSCF 这是静态计算，我认为是在得到一个物质结构之后的重要一步计算，通常在此之前会经过结构优化（relax），针对实际的实验数据的话就不需要结构优化了。\n",
-  "wordCount" : "542",
+  "articleBody": "开门见山\n软件的官网有资料可以查询FPLO，本人目前查到的资料有FPLO14.00版本的新手指导，Use of FPLO and Quanty to perform ab-initio ligand field multiplets calculations，之后查到会陆续加上。\n总而言之，这个软件是商用的，我并没有在网络上查到太多的教程和相关的信息。相对于VASP，肯定信息会少很多，不主流但是会好用很多。有操作界面，在有第一性计算的基础上上手很简单。\nNEW 新建你的项目，我的操作系统是ubantu，也就是Linux系统。\nmkdir new 进入文件内\ncd new 打开设置界面，也就是熟悉的软件操作界面\nfedit22.00-62-x86_64 ！！！要注意的是fedit指令后面接的是软件的版本和操作的系统。\nfedit：软件名称 ​22.00：版本，通常主版本号和次版本号的结构，比如22.00可能代表主版本22，次版本00 ​62：构建号或补丁号，表示该版本的第62次构建，或者补丁版本号 ​x86_64：系统架构，适用于64位的x86架构处理器 所以，了解自己的情况再想想怎么输入指令，或者，你知道Linux系统下按Tab键可以自动补全。\n之后就会弹出一个操作界面，高效简洁。\n键盘点击字母（不分大小写）X即可进入参数设置。\nSCF 这是静态计算，我认为是在得到一个物质结构之后的重要一步计算，通常在此之前会经过结构优化（relax），针对实际的实验数据的话就不需要结构优化了。\n接着介绍，之前我们来到了参数界面。键盘输入加号键会进入Symmetry界面：\n界面里面就可以设置结构的基本参数。\n注意，每一次改变结构后，都需要输入加号刷新保存：\n之后按X，X，退回主界面，输入减号进入选项卡，就是计算时候的选项设置：\n一般只需要勾选不考虑对称性。\n之后按X，退出，按Q之后选择Y，退出主界面。\n运行的格式是：\nfplo22.00-62-x86_64 \u003e out_scf.dat \u0026 fplo22.00-62-x86_64 \u003e out_scf.dat 第一个格式代表提交任务，输出信息不回在终端展示，类似于脚本的运行逻辑。\n第二个就是正常的运行指令。\nBANDSTRUCTURE 能带计算需要勾选设置\n回到主界面：\n按下空格：\n可以看到底端出现了选项，收入B，进入能带计算设置界面： 按你自己的要求输入，输入B就是打开能带绘制，输入W就是打开轨道权重，同样输入X退出，输入Q退出主界面，输入Y选着保存设置。\n顺便提醒，在主界面：\n还有一个菜单设置界面，即直接输入B，就会弹出：\n能带计算和静态计算一样，输入：\nfplo22.00-62-x86_64 \u003e out_bandstructure.dat \u0026 fplo22.00-62-x86_64 \u003e out_bandstructure.dat 就可以进行运算。\nWANNIER 这一步需要特定的脚本来实现，不是很复杂，但是碍于脚本私有，暂时不能分享。\n",
+  "wordCount" : "964",
   "inLanguage": "en",
   "image":"https://source.unsplash.com/random/940x400?sunshine","datePublished": "2025-02-26T14:16:29+08:00",
   "dateModified": "2025-02-26T14:16:29+08:00",
@@ -331,7 +331,7 @@ var _hmt = _hmt || [];
     
     <span id="post_meta_style_3">
         <span class="fa fa-file-word-o"></span>
-        <span>542 words
+        <span>964 words
             &nbsp;&nbsp;
         </span>
     </span>
@@ -410,7 +410,11 @@ var _hmt = _hmt || [];
                 <li>
                     <a href="#new" aria-label="NEW">NEW</a></li>
                 <li>
-                    <a href="#scf" aria-label="SCF">SCF</a>
+                    <a href="#scf" aria-label="SCF">SCF</a></li>
+                <li>
+                    <a href="#bandstructure" aria-label="BANDSTRUCTURE">BANDSTRUCTURE</a></li>
+                <li>
+                    <a href="#wannier" aria-label="WANNIER">WANNIER</a>
                 </li>
             </ul>
         </div>
@@ -494,11 +498,54 @@ var _hmt = _hmt || [];
 </ul>
 <p>所以，了解自己的情况再想想怎么输入指令，或者，你知道Linux系统下按<strong>Tab</strong>键可以自动补全。</p>
 <p>之后就会弹出一个操作界面，高效简洁。</p>
-<p><img loading="lazy" src="D:%5cHugo%5cMyblog%5ckevin%5cstatic%5cimg%5cFPLO%e6%96%b0%e5%bb%ba%e7%95%8c%e9%9d%a2.png" alt="1"  />
+<p><img loading="lazy" src="https://i.ibb.co/FbVFr8P8/FPLO.png" alt="你好"  />
 </p>
 <p>键盘点击字母（不分大小写）<strong>X</strong>即可进入参数设置。</p>
+<p><img loading="lazy" src="https://i.ibb.co/qM2sJStL/FPLO.png" alt="1"  />
+</p>
 <h3 id="scf">SCF<a hidden class="anchor" aria-hidden="true" href="#scf">#</a></h3>
 <p>这是静态计算，我认为是在得到一个物质结构之后的重要一步计算，通常在此之前会经过结构优化（relax），针对实际的实验数据的话就不需要结构优化了。</p>
+<p>接着介绍，之前我们来到了参数界面。键盘输入加号键会进入<strong>Symmetry</strong>界面：</p>
+<p><img loading="lazy" src="https://i.ibb.co/2Yq7RvcM/FPLO.png" alt="1"  />
+</p>
+<p>界面里面就可以设置结构的基本参数。</p>
+<p>注意，每一次改变结构后，都需要输入加号刷新保存：</p>
+<p><img loading="lazy" src="https://i.ibb.co/mCpGctrt/FPLO.png" alt="1"  />
+</p>
+<p>之后按<strong>X</strong>，<strong>X</strong>，退回主界面，输入减号进入选项卡，就是计算时候的选项设置：</p>
+<p><img loading="lazy" src="https://i.ibb.co/gZ5W9KTL/FPLO.png" alt="1"  />
+</p>
+<p>一般只需要勾选不考虑对称性。</p>
+<p>之后按<strong>X</strong>，退出，按<strong>Q</strong>之后选择<strong>Y</strong>，退出主界面。</p>
+<p>运行的格式是：</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>fplo22.00-62-x86_64 &gt; out_scf.dat &amp;
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>fplo22.00-62-x86_64 &gt; out_scf.dat
+</span></span></code></pre></div><p>第一个格式代表提交任务，输出信息不回在终端展示，类似于脚本的运行逻辑。</p>
+<p>第二个就是正常的运行指令。</p>
+<h3 id="bandstructure">BANDSTRUCTURE<a hidden class="anchor" aria-hidden="true" href="#bandstructure">#</a></h3>
+<p>能带计算需要勾选设置</p>
+<p>回到主界面：</p>
+<p><img loading="lazy" src="https://i.ibb.co/qM2sJStL/FPLO.png" alt="1"  />
+</p>
+<p>按下空格：</p>
+<p><img loading="lazy" src="https://i.ibb.co/BVgZDBNC/FPLO.png" alt="1"  />
+</p>
+<p>可以看到底端出现了选项，收入<strong>B</strong>，进入能带计算设置界面：
+<img loading="lazy" src="https://i.ibb.co/TMhKjPbn/FPLO.png" alt="1"  />
+</p>
+<p>按你自己的要求输入，输入<strong>B</strong>就是打开能带绘制，输入<strong>W</strong>就是打开轨道权重，同样输入<strong>X</strong>退出，输入<strong>Q</strong>退出主界面，输入<strong>Y</strong>选着保存设置。</p>
+<p>顺便提醒，在主界面：</p>
+<p><img loading="lazy" src="https://i.ibb.co/qM2sJStL/FPLO.png" alt="1"  />
+</p>
+<p>还有一个菜单设置界面，即直接输入<strong>B</strong>，就会弹出：</p>
+<p><img loading="lazy" src="https://i.ibb.co/S4GhB5Ls/FPLO.png" alt="1"  />
+</p>
+<p>能带计算和静态计算一样，输入：</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>fplo22.00-62-x86_64 &gt; out_bandstructure.dat &amp;
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>fplo22.00-62-x86_64 &gt; out_bandstructure.dat
+</span></span></code></pre></div><p>就可以进行运算。</p>
+<h3 id="wannier">WANNIER<a hidden class="anchor" aria-hidden="true" href="#wannier">#</a></h3>
+<p>这一步需要特定的脚本来实现，不是很复杂，但是碍于脚本私有，暂时不能分享。</p>
 
 
         </div>
@@ -623,7 +670,7 @@ var _hmt = _hmt || [];
         All Rights Reserved 
     </span>
     
-    <span>14 篇 7497 字</span>
+    <span>14 篇 7919 字</span>
 </footer>
 
     
