@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://jwzhukevin.github.io/sitemap.xml
