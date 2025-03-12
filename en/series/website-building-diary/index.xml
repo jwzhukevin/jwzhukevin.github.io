@@ -6,7 +6,16 @@
     <description>Recent content in Website Building Diary on 诸葛凯文</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Mar 2025 21:13:53 +0800</lastBuildDate><atom:link href="https://jwzhukevin.github.io/en/series/website-building-diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Mar 2025 14:21:30 +0800</lastBuildDate><atom:link href="https://jwzhukevin.github.io/en/series/website-building-diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Website Building Diary-20250312</title>
+      <link>https://jwzhukevin.github.io/en/posts/website-building-diary/website-building-diary-20250312/</link>
+      <pubDate>Wed, 12 Mar 2025 14:21:30 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/website-building-diary/website-building-diary-20250312/</guid>
+      <description>&lt;p&gt;今天解决了本地提交的问题，就是不再使用网页端提交代码，使用SSH密钥，自己也写了两个提交脚本，一个日常提交&lt;code&gt;sub_soft.sh&lt;/code&gt;，一个强制重启提交&lt;code&gt;sub_hard.sh&lt;/code&gt;，应对本地很仓库冲突的问题，保留本地，清楚仓库。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Website Building Diary-20250311</title>
       <link>https://jwzhukevin.github.io/en/posts/website-building-diary/website-building-diary-20250311/</link>
