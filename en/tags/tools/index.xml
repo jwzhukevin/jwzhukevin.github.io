@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tools on 诸葛凯文</title>
+    <link>https://jwzhukevin.github.io/en/tags/tools/</link>
+    <description>Recent content in Tools on 诸葛凯文</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 27 Nov 2024 20:12:14 +0800</lastBuildDate><atom:link href="https://jwzhukevin.github.io/en/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WannierTools 安装</title>
+      <link>https://jwzhukevin.github.io/en/posts/tools/wanniertools-%E5%AE%89%E8%A3%85/</link>
+      <pubDate>Wed, 27 Nov 2024 20:12:14 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/tools/wanniertools-%E5%AE%89%E8%A3%85/</guid>
+      <description>&lt;p&gt;WannierTools 是一款专注于拓扑材料研究的开源软件，适用于计算材料的电子结构和拓扑性质。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Github-2FA简单教程</title>
+      <link>https://jwzhukevin.github.io/en/posts/code_knowledge/github-2fa%E7%AE%80%E5%8D%95%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Sat, 23 Nov 2024 15:43:58 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/code_knowledge/github-2fa%E7%AE%80%E5%8D%95%E6%95%99%E7%A8%8B/</guid>
+      <description>&lt;p&gt;2023 年开始，你只要开始向 Github 上传你的项目和代码，官方就要求你进行 Github 2FA ( Two-Factor Authentication / 双重因素认证) ，这是为了保证每个创作者的代码安全，也可以提醒每一位创作者自己的账号安全。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

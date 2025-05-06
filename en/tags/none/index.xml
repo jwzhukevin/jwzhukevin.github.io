@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>None on 诸葛凯文</title>
+    <link>https://jwzhukevin.github.io/en/tags/none/</link>
+    <description>Recent content in None on 诸葛凯文</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 24 Mar 2025 19:26:49 +0800</lastBuildDate><atom:link href="https://jwzhukevin.github.io/en/tags/none/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>你说万一这个网站不在了怎么办</title>
+      <link>https://jwzhukevin.github.io/en/posts/life/%E4%BD%A0%E8%AF%B4%E4%B8%87%E4%B8%80%E8%BF%99%E4%B8%AA%E7%BD%91%E7%AB%99%E4%B8%8D%E5%9C%A8%E4%BA%86%E6%80%8E%E4%B9%88%E5%8A%9E/</link>
+      <pubDate>Mon, 24 Mar 2025 19:26:49 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/life/%E4%BD%A0%E8%AF%B4%E4%B8%87%E4%B8%80%E8%BF%99%E4%B8%AA%E7%BD%91%E7%AB%99%E4%B8%8D%E5%9C%A8%E4%BA%86%E6%80%8E%E4%B9%88%E5%8A%9E/</guid>
+      <description>&lt;p&gt;我只是担心哦，这个网站并没有很好的被维护，网站的很多内层代码都我都不是懂，网站还是最基础的&lt;code&gt;Github&lt;/code&gt;托管状态，网站也没有备案，虽然本地这个博客内容都有保存，但是图片照片全在&lt;a href=&#34;https://imgbb.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener nofollow noreferrer&#34; &gt;imgbb&lt;/a&gt;上。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux系统里面的权限</title>
+      <link>https://jwzhukevin.github.io/en/posts/code_knowledge/linux%E7%B3%BB%E7%BB%9F%E9%87%8C%E9%9D%A2%E7%9A%84%E6%9D%83%E9%99%90/</link>
+      <pubDate>Tue, 18 Mar 2025 21:25:02 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/code_knowledge/linux%E7%B3%BB%E7%BB%9F%E9%87%8C%E9%9D%A2%E7%9A%84%E6%9D%83%E9%99%90/</guid>
+      <description>Linux系统里面的权限</description>
+    </item>
+    
+    <item>
+      <title>2024</title>
+      <link>https://jwzhukevin.github.io/en/posts/notes/2024%E7%A7%91%E7%A0%94%E5%B0%8F%E8%AE%B0/</link>
+      <pubDate>Mon, 30 Dec 2024 20:36:42 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/notes/2024%E7%A7%91%E7%A0%94%E5%B0%8F%E8%AE%B0/</guid>
+      <description>&lt;p&gt;2024就剩下一两天了，我也是一个月来都没有上传博客了&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

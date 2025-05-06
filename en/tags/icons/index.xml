@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Icons on 诸葛凯文</title>
+    <link>https://jwzhukevin.github.io/en/tags/icons/</link>
+    <description>Recent content in Icons on 诸葛凯文</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 27 Nov 2024 10:24:27 +0800</lastBuildDate><atom:link href="https://jwzhukevin.github.io/en/tags/icons/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Colorful icons for YAML file</title>
+      <link>https://jwzhukevin.github.io/en/posts/code_knowledge/colorful-icons-for-yaml-file/</link>
+      <pubDate>Wed, 27 Nov 2024 10:24:27 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/code_knowledge/colorful-icons-for-yaml-file/</guid>
+      <description>&lt;p&gt;在构建网站时，hugo主题下的文件大多数都是 YAML 的文件格式，所以如果想给网站添加一些表情图标，最方便的就是使用可以直接复制进去的 icons，我在这里总结了一些图标，方便之后查找和使用。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
