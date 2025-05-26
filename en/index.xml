@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>诸葛凯文</title>
+    <link>https://jwzhukevin.github.io/en/</link>
+    <description>Recent content on 诸葛凯文</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 26 May 2025 10:25:37 +0800</lastBuildDate><atom:link href="https://jwzhukevin.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>服务器部署Flask网站</title>
+      <link>https://jwzhukevin.github.io/en/posts/code_knowledge/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2flask%E7%BD%91%E7%AB%99/</link>
+      <pubDate>Mon, 26 May 2025 10:25:37 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/code_knowledge/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2flask%E7%BD%91%E7%AB%99/</guid>
+      <description>&lt;p&gt;为了巩固自己部署网页的能力，现在将学习结果总结一下。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Website Building Diary-20250506</title>
+      <link>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20250506/</link>
+      <pubDate>Tue, 06 May 2025 16:04:45 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20250506/</guid>
+      <description>添加高效的 Giscus 评论系统</description>
+    </item>
+    
+    <item>
+      <title>你说万一这个网站不在了怎么办</title>
+      <link>https://jwzhukevin.github.io/en/posts/life/%E4%BD%A0%E8%AF%B4%E4%B8%87%E4%B8%80%E8%BF%99%E4%B8%AA%E7%BD%91%E7%AB%99%E4%B8%8D%E5%9C%A8%E4%BA%86%E6%80%8E%E4%B9%88%E5%8A%9E/</link>
+      <pubDate>Mon, 24 Mar 2025 19:26:49 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/life/%E4%BD%A0%E8%AF%B4%E4%B8%87%E4%B8%80%E8%BF%99%E4%B8%AA%E7%BD%91%E7%AB%99%E4%B8%8D%E5%9C%A8%E4%BA%86%E6%80%8E%E4%B9%88%E5%8A%9E/</guid>
+      <description>&lt;p&gt;我只是担心哦，这个网站并没有很好的被维护，网站的很多内层代码都我都不是懂，网站还是最基础的&lt;code&gt;Github&lt;/code&gt;托管状态，网站也没有备案，虽然本地这个博客内容都有保存，但是图片照片全在&lt;a href=&#34;https://imgbb.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener nofollow noreferrer&#34; &gt;imgbb&lt;/a&gt;上。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>凉拌菜</title>
+      <link>https://jwzhukevin.github.io/en/posts/cooking/%E5%87%89%E6%8B%8C%E8%8F%9C/</link>
+      <pubDate>Mon, 24 Mar 2025 17:24:13 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/cooking/%E5%87%89%E6%8B%8C%E8%8F%9C/</guid>
+      <description>&lt;h1 id=&#34;凉拌什锦素菜制作教程&#34;&gt;🥒凉拌什锦素菜制作教程&lt;/h1&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.ibb.co/VWgjBh1S/faed26e058e59b1a32edcdc09c485e58.jpg&#34; alt=&#34;1&#34;  /&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;-食材准备&#34;&gt;🛒 食材准备&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;​&lt;strong&gt;核心食材&lt;/strong&gt;：黄瓜1根、香菜50g、腐竹80g(干)、油炸$花生米$50g、黑木耳15g(干)&lt;/li&gt;
+&lt;li&gt;​&lt;strong&gt;推荐辅料&lt;/strong&gt;：胡萝卜半根、小米辣3根、白芝麻1勺、蒜末2勺、葱花1勺&lt;/li&gt;
+&lt;li&gt;​&lt;strong&gt;灵魂料汁&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;生抽3勺 + 香醋2勺（黄金酸咸比例）&lt;/li&gt;
+&lt;li&gt;白糖1勺（平衡酸味）&lt;/li&gt;
+&lt;li&gt;辣椒粉1勺 + 花椒油1勺（增香关键）&lt;/li&gt;
+&lt;li&gt;香油/芝麻油1勺（提升口感）&lt;/li&gt;
+&lt;li&gt;蚝油1勺（鲜味加持）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-制作步骤&#34;&gt;🔪 制作步骤&lt;/h2&gt;
+&lt;h3 id=&#34;一食材预处理&#34;&gt;一、食材预处理&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;​&lt;strong&gt;干货泡发&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>酸辣无骨鸡爪</title>
+      <link>https://jwzhukevin.github.io/en/posts/cooking/%E9%85%B8%E8%BE%A3%E6%97%A0%E9%AA%A8%E9%B8%A1%E7%88%AA/</link>
+      <pubDate>Mon, 24 Mar 2025 17:23:52 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/cooking/%E9%85%B8%E8%BE%A3%E6%97%A0%E9%AA%A8%E9%B8%A1%E7%88%AA/</guid>
+      <description>鸡爪鸡爪</description>
+    </item>
+    
+    <item>
+      <title>SSH连接</title>
+      <link>https://jwzhukevin.github.io/en/posts/code_knowledge/ssh%E8%BF%9E%E6%8E%A5/</link>
+      <pubDate>Fri, 21 Mar 2025 21:12:34 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/code_knowledge/ssh%E8%BF%9E%E6%8E%A5/</guid>
+      <description>SSH连接远程主机</description>
+    </item>
+    
+    <item>
+      <title>Linux系统里面的权限</title>
+      <link>https://jwzhukevin.github.io/en/posts/code_knowledge/linux%E7%B3%BB%E7%BB%9F%E9%87%8C%E9%9D%A2%E7%9A%84%E6%9D%83%E9%99%90/</link>
+      <pubDate>Tue, 18 Mar 2025 21:25:02 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/code_knowledge/linux%E7%B3%BB%E7%BB%9F%E9%87%8C%E9%9D%A2%E7%9A%84%E6%9D%83%E9%99%90/</guid>
+      <description>Linux系统里面的权限</description>
+    </item>
+    
+    <item>
+      <title>Website Building Diary-20250312</title>
+      <link>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20250312/</link>
+      <pubDate>Wed, 12 Mar 2025 14:21:30 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20250312/</guid>
+      <description>&lt;p&gt;今天解决了本地提交的问题，就是不再使用网页端提交代码，使用SSH密钥，自己也写了两个提交脚本，一个日常提交&lt;code&gt;sub_soft.sh&lt;/code&gt;，一个强制重启提交&lt;code&gt;sub_hard.sh&lt;/code&gt;，应对本地很仓库冲突的问题，保留本地，清楚仓库。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Website Building Diary-20250311</title>
+      <link>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20250311/</link>
+      <pubDate>Tue, 11 Mar 2025 21:13:53 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20250311/</guid>
+      <description>&lt;p&gt;开头是想说网站的构建确实停了好久了，因为一直都比较忙，长大了才知道事情做不完的感觉，很压抑，还好自己能保有一点点的兴趣。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>FPLO</title>
+      <link>https://jwzhukevin.github.io/en/posts/tools/fplo-software-beginner-tutorial/</link>
+      <pubDate>Wed, 26 Feb 2025 14:16:29 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/tools/fplo-software-beginner-tutorial/</guid>
+      <description>FPLO software beginner tutorial</description>
+    </item>
+    
+    <item>
+      <title>2024</title>
+      <link>https://jwzhukevin.github.io/en/posts/notes/2024%E7%A7%91%E7%A0%94%E5%B0%8F%E8%AE%B0/</link>
+      <pubDate>Mon, 30 Dec 2024 20:36:42 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/notes/2024%E7%A7%91%E7%A0%94%E5%B0%8F%E8%AE%B0/</guid>
+      <description>&lt;p&gt;2024就剩下一两天了，我也是一个月来都没有上传博客了&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>WannierTools 安装</title>
+      <link>https://jwzhukevin.github.io/en/posts/tools/wanniertools-%E5%AE%89%E8%A3%85/</link>
+      <pubDate>Wed, 27 Nov 2024 20:12:14 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/tools/wanniertools-%E5%AE%89%E8%A3%85/</guid>
+      <description>&lt;p&gt;WannierTools 是一款专注于拓扑材料研究的开源软件，适用于计算材料的电子结构和拓扑性质。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Colorful icons for YAML file</title>
+      <link>https://jwzhukevin.github.io/en/posts/code_knowledge/colorful-icons-for-yaml-file/</link>
+      <pubDate>Wed, 27 Nov 2024 10:24:27 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/code_knowledge/colorful-icons-for-yaml-file/</guid>
+      <description>&lt;p&gt;在构建网站时，hugo主题下的文件大多数都是 YAML 的文件格式，所以如果想给网站添加一些表情图标，最方便的就是使用可以直接复制进去的 icons，我在这里总结了一些图标，方便之后查找和使用。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Git push</title>
+      <link>https://jwzhukevin.github.io/en/posts/code_knowledge/git-push/</link>
+      <pubDate>Tue, 26 Nov 2024 15:57:03 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/code_knowledge/git-push/</guid>
+      <description>&lt;h4 id=&#34;我的烦恼&#34;&gt;我的烦恼&lt;/h4&gt;
+&lt;p&gt;这是目前让我比较恼火的问题，好几次辛辛苦苦编辑好博客准备同步到仓库，到最后输入指令：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2024沈阳第一场雪</title>
+      <link>https://jwzhukevin.github.io/en/posts/photos/20241126/</link>
+      <pubDate>Tue, 26 Nov 2024 08:48:20 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/photos/20241126/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.ibb.co/StvV0jZ/IMG-20241126-073935.jpg&#34; alt=&#34;&#34;  title=&#34;雪&#34;  /&gt;
+
+&lt;img loading=&#34;lazy&#34; src=&#34;https://i.ibb.co/6BdDqbB/IMG-20241126-073841.jpg&#34; alt=&#34;&#34;  title=&#34;雪&#34;  /&gt;
+
+&lt;img loading=&#34;lazy&#34; src=&#34;https://i.ibb.co/NZ5NG4D/IMG-20241126-080154.jpg&#34; alt=&#34;&#34;  title=&#34;雪&#34;  /&gt;
+
+&lt;img loading=&#34;lazy&#34; src=&#34;https://i.ibb.co/86478QQ/IMG-20241126-074003.jpg&#34; alt=&#34;&#34;  title=&#34;雪&#34;  /&gt;
+
+&lt;img loading=&#34;lazy&#34; src=&#34;https://i.ibb.co/nkX8GqF/IMG-20241126-081240.jpg&#34; alt=&#34;&#34;  title=&#34;雪&#34;  /&gt;
+
+&lt;img loading=&#34;lazy&#34; src=&#34;https://i.ibb.co/3yfw07N/IMG-20241126-081530.jpg&#34; alt=&#34;&#34;  title=&#34;雪&#34;  /&gt;
+
+&lt;img loading=&#34;lazy&#34; src=&#34;https://i.ibb.co/6RYGgG9/IMG-20241126-080200.jpg&#34; alt=&#34;&#34;  title=&#34;雪&#34;  /&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>今天晚上下雪了</title>
+      <link>https://jwzhukevin.github.io/en/posts/life/%E4%BB%8A%E5%A4%A9%E6%99%9A%E4%B8%8A%E4%B8%8B%E9%9B%AA%E4%BA%86/</link>
+      <pubDate>Mon, 25 Nov 2024 21:27:40 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/life/%E4%BB%8A%E5%A4%A9%E6%99%9A%E4%B8%8A%E4%B8%8B%E9%9B%AA%E4%BA%86/</guid>
+      <description>&lt;p&gt;晚上说是在下雪，可是没下&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Website Building Diary-20241123</title>
+      <link>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20241123/</link>
+      <pubDate>Sat, 23 Nov 2024 18:16:48 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20241123/</guid>
+      <description>&lt;p&gt;今天的内容一大部分不在网站上，在于折腾评论区的构建上面。昨晚没有完全构建好评论区，而是在平板上再次部署 Zeabur 之后才好用，但是每次只有一天的额度。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Github-2FA简单教程</title>
+      <link>https://jwzhukevin.github.io/en/posts/code_knowledge/github-2fa%E7%AE%80%E5%8D%95%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Sat, 23 Nov 2024 15:43:58 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/code_knowledge/github-2fa%E7%AE%80%E5%8D%95%E6%95%99%E7%A8%8B/</guid>
+      <description>&lt;p&gt;2023 年开始，你只要开始向 Github 上传你的项目和代码，官方就要求你进行 Github 2FA ( Two-Factor Authentication / 双重因素认证) ，这是为了保证每个创作者的代码安全，也可以提醒每一位创作者自己的账号安全。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Website Building Diary-20241122</title>
+      <link>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20241122/</link>
+      <pubDate>Fri, 22 Nov 2024 20:47:35 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20241122/</guid>
+      <description>&lt;p&gt;今天算是解决了评论的功能，查询了备案的相关信息，加了头部导航栏&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>🌟半日闲</title>
+      <link>https://jwzhukevin.github.io/en/collection/</link>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/collection/</guid>
+      <description>诸葛凯文</description>
+    </item>
+    
+    <item>
+      <title>🌿还故人</title>
+      <link>https://jwzhukevin.github.io/en/friends/</link>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/friends/</guid>
+      <description>诸葛凯文</description>
+    </item>
+    
+    <item>
+      <title>早晨的随手拍和这几天的月亮</title>
+      <link>https://jwzhukevin.github.io/en/posts/photos/20241121/</link>
+      <pubDate>Thu, 21 Nov 2024 20:53:27 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/photos/20241121/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.ibb.co/xC668bC/c515bd70566ec7ef9ad4445b319564d.jpg&#34; alt=&#34;&#34;  title=&#34;早晨&#34;  /&gt;
+&lt;br&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://i.ibb.co/dmTbK5V/1b6edb44b7a1c2b74ab6b56b0cd271d.jpg&#34; alt=&#34;&#34;  title=&#34;月亮&#34;  /&gt;
+&lt;br&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://i.ibb.co/sWXJMXN/61dcd4ccf7115fbbf6e1515c5e8ec6d.jpg&#34; alt=&#34;&#34;  title=&#34;夜晚的云&#34;  /&gt;
+&lt;br&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://i.ibb.co/nbBnJ8Y/d28205ca1ec4388d5b887b7055e2138.jpg&#34; alt=&#34;&#34;  title=&#34;月亮&#34;  /&gt;
+&lt;br&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://i.ibb.co/wrbhTmG/755f89fb330b750bc2960b212aae09c.jpg&#34; alt=&#34;&#34;  title=&#34;月亮&#34;  /&gt;
+&lt;br&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://i.ibb.co/48XjTYC/0b847d6b541a8d95b51691961db71e6.jpg&#34; alt=&#34;&#34;  title=&#34;月亮&#34;  /&gt;
+&lt;br&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Website Building Diary-20241121</title>
+      <link>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20241121/</link>
+      <pubDate>Thu, 21 Nov 2024 16:10:01 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20241121/</guid>
+      <description>&lt;p&gt;今天的修改比较杂，我尽量一项一项回忆，顺序应该会比较乱。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>First photo</title>
+      <link>https://jwzhukevin.github.io/en/posts/photos/20241120/</link>
+      <pubDate>Wed, 20 Nov 2024 21:28:53 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/photos/20241120/</guid>
+      <description>&lt;p&gt;我的头像
+&lt;img loading=&#34;lazy&#34; src=&#34;https://i.ibb.co/1XXmgXF/71b491750e3f0ff5f788352b2724774.jpg&#34; alt=&#34;&#34;  title=&#34;zjWxm&#34;  /&gt;
+&lt;br&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Website Building Diary-20241120</title>
+      <link>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20241120/</link>
+      <pubDate>Wed, 20 Nov 2024 21:09:31 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20241120/</guid>
+      <description>&lt;p&gt;建站第一次发博，希望自己可以好好维护网站，开始一段新的旅程。&lt;br&gt;
+这一次建站主要靠copy，并没有什么技术含量，但是也花了我两天时间。&lt;br&gt;
+对网站的主要修改包括：&lt;br&gt;
+1.修改网站名称&lt;br&gt;
+2.添加雪花特效&lt;br&gt;
+3.修改自我介绍&lt;br&gt;
+之前尝试过修改其他内容，比如字体，标签什么的，但是最终出现了问题，最终博文可以正常发出，但是在网页上只能看到标题和基本信息，但点击博文就打不开了&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>🙋🏻‍♂两袖清风</title>
+      <link>https://jwzhukevin.github.io/en/about/</link>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/about/</guid>
+      <description>诸葛凯文</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jwzhukevin.github.io/en/copyright/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/copyright/</guid>
+      <description>&lt;p style=&#34;font-size: 30px;font-weight:bold;text-align: center ;font-family:&#34;sans-serif&#34; &gt;♾️ 版权说明 ♾️&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+  </channel>
+</rss>

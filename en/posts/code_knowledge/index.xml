@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Code knowledge on 诸葛凯文</title>
+    <link>https://jwzhukevin.github.io/en/posts/code_knowledge/</link>
+    <description>Recent content in Code knowledge on 诸葛凯文</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 26 May 2025 10:25:37 +0800</lastBuildDate><atom:link href="https://jwzhukevin.github.io/en/posts/code_knowledge/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>服务器部署Flask网站</title>
+      <link>https://jwzhukevin.github.io/en/posts/code_knowledge/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2flask%E7%BD%91%E7%AB%99/</link>
+      <pubDate>Mon, 26 May 2025 10:25:37 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/code_knowledge/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2flask%E7%BD%91%E7%AB%99/</guid>
+      <description>&lt;p&gt;为了巩固自己部署网页的能力，现在将学习结果总结一下。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>SSH连接</title>
+      <link>https://jwzhukevin.github.io/en/posts/code_knowledge/ssh%E8%BF%9E%E6%8E%A5/</link>
+      <pubDate>Fri, 21 Mar 2025 21:12:34 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/code_knowledge/ssh%E8%BF%9E%E6%8E%A5/</guid>
+      <description>SSH连接远程主机</description>
+    </item>
+    
+    <item>
+      <title>Linux系统里面的权限</title>
+      <link>https://jwzhukevin.github.io/en/posts/code_knowledge/linux%E7%B3%BB%E7%BB%9F%E9%87%8C%E9%9D%A2%E7%9A%84%E6%9D%83%E9%99%90/</link>
+      <pubDate>Tue, 18 Mar 2025 21:25:02 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/code_knowledge/linux%E7%B3%BB%E7%BB%9F%E9%87%8C%E9%9D%A2%E7%9A%84%E6%9D%83%E9%99%90/</guid>
+      <description>Linux系统里面的权限</description>
+    </item>
+    
+    <item>
+      <title>Colorful icons for YAML file</title>
+      <link>https://jwzhukevin.github.io/en/posts/code_knowledge/colorful-icons-for-yaml-file/</link>
+      <pubDate>Wed, 27 Nov 2024 10:24:27 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/code_knowledge/colorful-icons-for-yaml-file/</guid>
+      <description>&lt;p&gt;在构建网站时，hugo主题下的文件大多数都是 YAML 的文件格式，所以如果想给网站添加一些表情图标，最方便的就是使用可以直接复制进去的 icons，我在这里总结了一些图标，方便之后查找和使用。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Git push</title>
+      <link>https://jwzhukevin.github.io/en/posts/code_knowledge/git-push/</link>
+      <pubDate>Tue, 26 Nov 2024 15:57:03 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/code_knowledge/git-push/</guid>
+      <description>&lt;h4 id=&#34;我的烦恼&#34;&gt;我的烦恼&lt;/h4&gt;
+&lt;p&gt;这是目前让我比较恼火的问题，好几次辛辛苦苦编辑好博客准备同步到仓库，到最后输入指令：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Github-2FA简单教程</title>
+      <link>https://jwzhukevin.github.io/en/posts/code_knowledge/github-2fa%E7%AE%80%E5%8D%95%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Sat, 23 Nov 2024 15:43:58 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/code_knowledge/github-2fa%E7%AE%80%E5%8D%95%E6%95%99%E7%A8%8B/</guid>
+      <description>&lt;p&gt;2023 年开始，你只要开始向 Github 上传你的项目和代码，官方就要求你进行 Github 2FA ( Two-Factor Authentication / 双重因素认证) ，这是为了保证每个创作者的代码安全，也可以提醒每一位创作者自己的账号安全。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
