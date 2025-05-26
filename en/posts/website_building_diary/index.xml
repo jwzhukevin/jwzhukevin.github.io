@@ -6,74 +6,77 @@
     <description>Recent content in Website Building Diary on 诸葛凯文</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 May 2025 16:04:45 +0800</lastBuildDate><atom:link href="https://jwzhukevin.github.io/en/posts/website_building_diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 May 2025 21:10:14 +0800</lastBuildDate><atom:link href="https://jwzhukevin.github.io/en/posts/website_building_diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Website_Building_Diary 20250526</title>
+      <link>https://jwzhukevin.github.io/en/posts/website_building_diary/website_building_diary-20250526/</link>
+      <pubDate>Mon, 26 May 2025 21:10:14 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/website_building_diary/website_building_diary-20250526/</guid>
+      <description>页面白天黑夜的背景特效和鼠标特效</description>
+    </item>
+    
     <item>
       <title>Website Building Diary-20250506</title>
-      <link>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20250506/</link>
+      <link>https://jwzhukevin.github.io/en/posts/website_building_diary/website_building_diary-20250506/</link>
       <pubDate>Tue, 06 May 2025 16:04:45 +0800</pubDate>
       
-      <guid>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20250506/</guid>
+      <guid>https://jwzhukevin.github.io/en/posts/website_building_diary/website_building_diary-20250506/</guid>
       <description>添加高效的 Giscus 评论系统</description>
     </item>
     
     <item>
       <title>Website Building Diary-20250312</title>
-      <link>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20250312/</link>
+      <link>https://jwzhukevin.github.io/en/posts/website_building_diary/website_building_diary-20250312/</link>
       <pubDate>Wed, 12 Mar 2025 14:21:30 +0800</pubDate>
       
-      <guid>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20250312/</guid>
-      <description>&lt;p&gt;今天解决了本地提交的问题，就是不再使用网页端提交代码，使用SSH密钥，自己也写了两个提交脚本，一个日常提交&lt;code&gt;sub_soft.sh&lt;/code&gt;，一个强制重启提交&lt;code&gt;sub_hard.sh&lt;/code&gt;，应对本地很仓库冲突的问题，保留本地，清楚仓库。&lt;/p&gt;</description>
+      <guid>https://jwzhukevin.github.io/en/posts/website_building_diary/website_building_diary-20250312/</guid>
+      <description>本地提交脚本的开始</description>
     </item>
     
     <item>
       <title>Website Building Diary-20250311</title>
-      <link>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20250311/</link>
+      <link>https://jwzhukevin.github.io/en/posts/website_building_diary/website_building_diary-20250311/</link>
       <pubDate>Tue, 11 Mar 2025 21:13:53 +0800</pubDate>
       
-      <guid>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20250311/</guid>
-      <description>&lt;p&gt;开头是想说网站的构建确实停了好久了，因为一直都比较忙，长大了才知道事情做不完的感觉，很压抑，还好自己能保有一点点的兴趣。&lt;/p&gt;</description>
+      <guid>https://jwzhukevin.github.io/en/posts/website_building_diary/website_building_diary-20250311/</guid>
+      <description>小小的展望</description>
     </item>
     
     <item>
       <title>Website Building Diary-20241123</title>
-      <link>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20241123/</link>
+      <link>https://jwzhukevin.github.io/en/posts/website_building_diary/website_building_diary-20241123/</link>
       <pubDate>Sat, 23 Nov 2024 18:16:48 +0800</pubDate>
       
-      <guid>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20241123/</guid>
-      <description>&lt;p&gt;今天的内容一大部分不在网站上，在于折腾评论区的构建上面。昨晚没有完全构建好评论区，而是在平板上再次部署 Zeabur 之后才好用，但是每次只有一天的额度。&lt;/p&gt;</description>
+      <guid>https://jwzhukevin.github.io/en/posts/website_building_diary/website_building_diary-20241123/</guid>
+      <description>二次身份认证和预览图片</description>
     </item>
     
     <item>
       <title>Website Building Diary-20241122</title>
-      <link>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20241122/</link>
+      <link>https://jwzhukevin.github.io/en/posts/website_building_diary/website_building_diary-20241122/</link>
       <pubDate>Fri, 22 Nov 2024 20:47:35 +0800</pubDate>
       
-      <guid>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20241122/</guid>
-      <description>&lt;p&gt;今天算是解决了评论的功能，查询了备案的相关信息，加了头部导航栏&lt;/p&gt;</description>
+      <guid>https://jwzhukevin.github.io/en/posts/website_building_diary/website_building_diary-20241122/</guid>
+      <description>评论功能的初次尝试，失败告终</description>
     </item>
     
     <item>
       <title>Website Building Diary-20241121</title>
-      <link>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20241121/</link>
+      <link>https://jwzhukevin.github.io/en/posts/website_building_diary/website_building_diary-20241121/</link>
       <pubDate>Thu, 21 Nov 2024 16:10:01 +0800</pubDate>
       
-      <guid>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20241121/</guid>
-      <description>&lt;p&gt;今天的修改比较杂，我尽量一项一项回忆，顺序应该会比较乱。&lt;/p&gt;</description>
+      <guid>https://jwzhukevin.github.io/en/posts/website_building_diary/website_building_diary-20241121/</guid>
+      <description>添加特效和谷歌分析等等，细节修改</description>
     </item>
     
     <item>
       <title>Website Building Diary-20241120</title>
-      <link>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20241120/</link>
+      <link>https://jwzhukevin.github.io/en/posts/website_building_diary/website_building_diary-20241120/</link>
       <pubDate>Wed, 20 Nov 2024 21:09:31 +0800</pubDate>
       
-      <guid>https://jwzhukevin.github.io/en/posts/website_building_diary/website-building-diary-20241120/</guid>
-      <description>&lt;p&gt;建站第一次发博，希望自己可以好好维护网站，开始一段新的旅程。&lt;br&gt;
-这一次建站主要靠copy，并没有什么技术含量，但是也花了我两天时间。&lt;br&gt;
-对网站的主要修改包括：&lt;br&gt;
-1.修改网站名称&lt;br&gt;
-2.添加雪花特效&lt;br&gt;
-3.修改自我介绍&lt;br&gt;
-之前尝试过修改其他内容，比如字体，标签什么的，但是最终出现了问题，最终博文可以正常发出，但是在网页上只能看到标题和基本信息，但点击博文就打不开了&lt;/p&gt;</description>
+      <guid>https://jwzhukevin.github.io/en/posts/website_building_diary/website_building_diary-20241120/</guid>
+      <description>建站成功！！！</description>
     </item>
     
   </channel>
