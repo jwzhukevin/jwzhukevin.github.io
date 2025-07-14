@@ -1,3 +1,5 @@
+// 烟花效果已注释
+/*
 // Firework click effect + 爆炸四散+重力+线性淡出 + 性能优化
 (function() {
     document.addEventListener('click', function (e) {
@@ -44,3 +46,4 @@
 // 2. 粒子运动过程中透明度线性减小，直到消失。
 // 3. 颜色、数量、速度均有随机性。
 // 4. 彻底移除拖尾，减少DOM操作，提升性能，避免卡顿。 
+*/ 

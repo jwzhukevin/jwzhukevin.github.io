@@ -1,4 +1,6 @@
-/* 笔形鼠标光标样式 */
+/* 鼠标笔形光标样式已注释 */
+/*
+笔形鼠标光标样式
 #pen-cursor {
     position: fixed;
     left: 0;
@@ -44,3 +46,4 @@
     will-change: transform, opacity;
     filter: blur(1px);
 } 
+*/ 
