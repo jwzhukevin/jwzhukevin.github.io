@@ -2,10 +2,10 @@
 (function() {
     'use strict';
 
-    // 性能检测和配置
+    // 性能检测和配置 - 保守版本，所有设备都使用适中的动画数量
     const PERFORMANCE_CONFIG = {
-        high: { stars: 120, meteors: true, sparrows: true, quality: 1.0 },
-        medium: { stars: 60, meteors: true, sparrows: false, quality: 0.8 },
+        high: { stars: 60, meteors: true, sparrows: true, quality: 0.9 },
+        medium: { stars: 45, meteors: true, sparrows: false, quality: 0.8 },
         low: { stars: 30, meteors: false, sparrows: false, quality: 0.6 }
     };
 
@@ -48,9 +48,9 @@
             score -= 5;
         }
 
-        // 返回性能等级
-        if (score >= 15) return 'high';
-        if (score >= 8) return 'medium';
+        // 返回性能等级 - 更保守的评分标准
+        if (score >= 20) return 'high';  // 提高high等级门槛
+        if (score >= 12) return 'medium'; // 提高medium等级门槛
         return 'low';
     }
 
@@ -78,7 +78,7 @@
     const finalPerformance = userSetting === 'auto' ? autoPerformance : userSetting;
     const config = PERFORMANCE_CONFIG[finalPerformance] || PERFORMANCE_CONFIG.medium;
 
-    console.log(`🌟 星空背景性能模式: ${finalPerformance} (用户设置: ${userSetting}, 自动检测: ${autoPerformance})`);
+    console.log(`🌟 星空背景保守模式: ${finalPerformance} (用户设置: ${userSetting}, 自动检测: ${autoPerformance})`);
 
     // 创建性能控制面板
     function createControlPanel() {
@@ -101,10 +101,10 @@
         `;
 
         panel.innerHTML = `
-            <div>🌟 背景动画: ${finalPerformance}</div>
+            <div>🌟 背景动画: ${finalPerformance} (保守模式)</div>
             <div>⭐ 星星数量: ${config.stars}</div>
-            <div>☄️ 流星: ${config.meteors ? '开启' : '关闭'}</div>
-            <div>✈️ 纸飞机: ${config.sparrows ? '开启' : '关闭'}</div>
+            <div>☄️ 流星: ${config.meteors ? '最多1个' : '关闭'}</div>
+            <div>✈️ 纸飞机: ${config.sparrows ? '最多1个' : '关闭'}</div>
             <div style="margin-top: 8px; font-size: 10px; opacity: 0.7;">
                 按 Ctrl+Shift+S 切换设置
             </div>
@@ -655,12 +655,12 @@
         // 只在夜间绘制星星和月亮
         if (isNight) {
             frame++;
-            // ====== 流星生成逻辑 ======
+            // ====== 流星生成逻辑 - 保守版本，最多1个流星 ======
             if (config.meteors) {
                 meteorTimer++;
-                // 根据性能调整流星生成频率
-                const meteorInterval = finalPerformance === 'high' ? 300 : 600;
-                if (meteorTimer > meteorInterval + Math.random() * 600) {
+                // 保守的流星生成频率，且最多只有1个流星
+                const meteorInterval = 800; // 统一使用较长间隔
+                if (meteorTimer > meteorInterval + Math.random() * 1200 && meteors.length === 0) {
                     createMeteor();
                     meteorTimer = 0;
                 }
@@ -712,12 +712,12 @@
             ctx.restore();
             // 白天山水
             drawMountains(false);
-            // ====== 白天纸飞机逻辑 ======
+            // ====== 白天纸飞机逻辑 - 保守版本，最多1个纸飞机 ======
             if (config.sparrows) {
                 sparrowTimer++;
-                // 根据性能调整纸飞机生成频率
-                const sparrowInterval = finalPerformance === 'high' ? 600 : 1200;
-                if (sparrowTimer > sparrowInterval) {
+                // 保守的纸飞机生成频率，且最多只有1个纸飞机
+                const sparrowInterval = 1500; // 统一使用较长间隔
+                if (sparrowTimer > sparrowInterval && sparrows.length === 0) {
                     createSparrow();
                     sparrowTimer = 0;
                 }
