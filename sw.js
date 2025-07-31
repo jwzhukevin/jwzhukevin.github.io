@@ -74,12 +74,13 @@ self.addEventListener('activate', event => {
 self.addEventListener('fetch', event => {
     const request = event.request;
     const url = new URL(request.url);
-    
-    // 只处理同源请求
+
+    // 只处理同源请求，外部API请求直接放行
     if (url.origin !== location.origin) {
+        // 对于外部请求，不拦截，让浏览器直接处理
         return;
     }
-    
+
     // 根据资源类型选择缓存策略
     if (request.method === 'GET') {
         event.respondWith(handleRequest(request));
