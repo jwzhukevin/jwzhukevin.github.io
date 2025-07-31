@@ -37,8 +37,7 @@
             webp: false,
             avif: false,
             lazyLoading: 'loading' in HTMLImageElement.prototype,
-            intersectionObserver: 'IntersectionObserver' in window,
-            serviceWorker: 'serviceWorker' in navigator
+            intersectionObserver: 'IntersectionObserver' in window
         },
         
         // 检测WebP支持
@@ -209,23 +208,11 @@
         }
     };
     
-    // 缓存管理器
+    // 缓存管理器 - Service Worker已移除
     const CacheManager = {
         init: function() {
-            if (!CONFIG.cache.enabled || !utils.supports.serviceWorker) return;
-            
-            this.registerServiceWorker();
-        },
-        
-        // 注册Service Worker
-        registerServiceWorker: function() {
-            navigator.serviceWorker.register('/sw.js')
-                .then(registration => {
-                    console.log('💾 Service Worker注册成功');
-                })
-                .catch(error => {
-                    console.warn('💾 Service Worker注册失败:', error);
-                });
+            // Service Worker功能已移除，使用浏览器原生缓存
+            console.log('💾 使用浏览器原生缓存策略');
         }
     };
     
