@@ -54,103 +54,16 @@
         return 'low';
     }
 
-    // 获取用户设置
-    function getUserSetting() {
-        try {
-            return localStorage.getItem('space_bg_performance') || 'auto';
-        } catch (e) {
-            return 'auto';
-        }
-    }
+    // 移除用户设置功能，完全由终端类型自动确定
 
-    // 保存用户设置
-    function saveUserSetting(setting) {
-        try {
-            localStorage.setItem('space_bg_performance', setting);
-        } catch (e) {
-            // localStorage不可用时静默失败
-        }
-    }
-
-    // 确定最终配置
-    const userSetting = getUserSetting();
+    // 确定最终配置 - 完全由终端类型自动确定
     const autoPerformance = detectPerformance();
-    const finalPerformance = userSetting === 'auto' ? autoPerformance : userSetting;
+    const finalPerformance = autoPerformance;
     const config = PERFORMANCE_CONFIG[finalPerformance] || PERFORMANCE_CONFIG.medium;
 
-    console.log(`🌟 星空背景保守模式: ${finalPerformance} (用户设置: ${userSetting}, 自动检测: ${autoPerformance})`);
+    console.log(`🌟 星空背景自动模式: ${finalPerformance} (自动检测)`);
 
-    // 创建性能控制面板
-    function createControlPanel() {
-        const panel = document.createElement('div');
-        panel.id = 'space-bg-control';
-        panel.style.cssText = `
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            z-index: 1000;
-            background: rgba(0,0,0,0.7);
-            color: white;
-            padding: 10px;
-            border-radius: 8px;
-            font-size: 12px;
-            font-family: monospace;
-            opacity: 0;
-            transition: opacity 0.3s;
-            pointer-events: none;
-        `;
-
-        panel.innerHTML = `
-            <div>🌟 背景动画: ${finalPerformance} (保守模式)</div>
-            <div>⭐ 星星数量: ${config.stars}</div>
-            <div>☄️ 流星: ${config.meteors ? '最多1个' : '关闭'}</div>
-            <div>✈️ 纸飞机: ${config.sparrows ? '最多1个' : '关闭'}</div>
-            <div style="margin-top: 8px; font-size: 10px; opacity: 0.7;">
-                按 Ctrl+Shift+S 切换设置
-            </div>
-        `;
-
-        document.body.appendChild(panel);
-
-        // 鼠标悬停显示
-        let showTimeout;
-        document.addEventListener('mousemove', function(e) {
-            if (e.clientX > window.innerWidth - 200 && e.clientY < 150) {
-                clearTimeout(showTimeout);
-                panel.style.opacity = '1';
-                panel.style.pointerEvents = 'auto';
-            } else {
-                showTimeout = setTimeout(() => {
-                    panel.style.opacity = '0';
-                    panel.style.pointerEvents = 'none';
-                }, 1000);
-            }
-        });
-
-        // 快捷键切换
-        document.addEventListener('keydown', function(e) {
-            if (e.ctrlKey && e.shiftKey && e.key === 'S') {
-                e.preventDefault();
-                const settings = ['auto', 'high', 'medium', 'low', 'off'];
-                const current = getUserSetting();
-                const currentIndex = settings.indexOf(current);
-                const nextSetting = settings[(currentIndex + 1) % settings.length];
-                saveUserSetting(nextSetting);
-                location.reload(); // 重新加载应用新设置
-            }
-        });
-
-        return panel;
-    }
-
-    // 如果用户设置为关闭，直接返回
-    if (userSetting === 'off') {
-        console.log('🌟 星空背景已关闭');
-        return;
-    }
-
-    // 创建控制面板
-    createControlPanel();
+    // 移除控制面板，完全由终端类型自动确定动画方式
 
     // 创建canvas
     const canvas = document.createElement('canvas');

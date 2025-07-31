@@ -75,9 +75,9 @@ self.addEventListener('fetch', event => {
     const request = event.request;
     const url = new URL(request.url);
 
-    // 只处理同源请求，外部API请求直接放行
+    // 对于外部请求，直接转发给网络，不进行缓存处理
     if (url.origin !== location.origin) {
-        // 对于外部请求，不拦截，让浏览器直接处理
+        event.respondWith(fetch(request));
         return;
     }
 
