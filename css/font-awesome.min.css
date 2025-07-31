@@ -1,0 +1,72 @@
+/*!
+ * Font Awesome 4.7.0 - 本地优化版本
+ * 仅包含常用图标，减少文件大小
+ * 支持现代浏览器的优化特性
+ */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../webfonts/fa-solid-900.woff2') format('woff2'),
+       url('../webfonts/fa-solid-900.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* 优化字体加载性能 */
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 常用图标 - 仅包含你网站实际使用的图标 */
+.fa-github:before { content: "\f09b"; }
+.fa-qq:before { content: "\f1d6"; }
+.fa-weibo:before { content: "\f18a"; }
+.fa-zhihu:before { content: "\f1d7"; }
+.fa-rss:before { content: "\f09e"; }
+.fa-search:before { content: "\f002"; }
+.fa-home:before { content: "\f015"; }
+.fa-user:before { content: "\f007"; }
+.fa-archive:before { content: "\f187"; }
+.fa-tags:before { content: "\f02c"; }
+.fa-calendar:before { content: "\f073"; }
+.fa-clock-o:before { content: "\f017"; }
+.fa-eye:before { content: "\f06e"; }
+.fa-heart:before { content: "\f004"; }
+.fa-share:before { content: "\f064"; }
+.fa-link:before { content: "\f0c1"; }
+.fa-external-link:before { content: "\f08e"; }
+.fa-arrow-up:before { content: "\f062"; }
+.fa-arrow-down:before { content: "\f063"; }
+.fa-arrow-left:before { content: "\f060"; }
+.fa-arrow-right:before { content: "\f061"; }
+
+/* 响应式图标大小 */
+.fa-lg { font-size: 1.33333em; line-height: 0.75em; vertical-align: -15%; }
+.fa-2x { font-size: 2em; }
+.fa-3x { font-size: 3em; }
+
+/* 动画效果 - 性能优化版本 */
+.fa-spin {
+  animation: fa-spin 2s infinite linear;
+  will-change: transform; /* 优化动画性能 */
+}
+
+@keyframes fa-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(359deg); }
+}
+
+/* 暗色主题适配 */
+@media (prefers-color-scheme: dark) {
+  .fa { color: #e8e8e8; }
+}
+
+/* 减少重绘，提升性能 */
+.fa { 
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}

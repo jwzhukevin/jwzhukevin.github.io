@@ -1,5 +1,157 @@
-// 星空背景+太阳/月亮随主题切换同步
+// 星空背景+太阳/月亮随主题切换同步 - 性能优化版本
 (function() {
+    'use strict';
+
+    // 性能检测和配置
+    const PERFORMANCE_CONFIG = {
+        high: { stars: 120, meteors: true, sparrows: true, quality: 1.0 },
+        medium: { stars: 60, meteors: true, sparrows: false, quality: 0.8 },
+        low: { stars: 30, meteors: false, sparrows: false, quality: 0.6 }
+    };
+
+    // 检测设备性能
+    function detectPerformance() {
+        const canvas = document.createElement('canvas');
+        const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+
+        // 基础性能指标
+        let score = 0;
+
+        // CPU核心数
+        score += navigator.hardwareConcurrency || 2;
+
+        // 内存大小（如果可用）
+        if (navigator.deviceMemory) {
+            score += navigator.deviceMemory;
+        } else {
+            score += 4; // 默认假设4GB
+        }
+
+        // WebGL支持
+        if (gl) {
+            score += 5;
+            const debugInfo = gl.getExtension('WEBGL_debug_renderer_info');
+            if (debugInfo) {
+                const renderer = gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL);
+                if (renderer.includes('Intel')) score += 2;
+                if (renderer.includes('NVIDIA') || renderer.includes('AMD')) score += 5;
+            }
+        }
+
+        // 屏幕分辨率影响
+        const pixelRatio = window.devicePixelRatio || 1;
+        const screenArea = window.screen.width * window.screen.height * pixelRatio;
+        if (screenArea > 2073600) score -= 3; // 4K屏幕减分
+
+        // 移动设备检测
+        if (/Mobi|Android/i.test(navigator.userAgent)) {
+            score -= 5;
+        }
+
+        // 返回性能等级
+        if (score >= 15) return 'high';
+        if (score >= 8) return 'medium';
+        return 'low';
+    }
+
+    // 获取用户设置
+    function getUserSetting() {
+        try {
+            return localStorage.getItem('space_bg_performance') || 'auto';
+        } catch (e) {
+            return 'auto';
+        }
+    }
+
+    // 保存用户设置
+    function saveUserSetting(setting) {
+        try {
+            localStorage.setItem('space_bg_performance', setting);
+        } catch (e) {
+            // localStorage不可用时静默失败
+        }
+    }
+
+    // 确定最终配置
+    const userSetting = getUserSetting();
+    const autoPerformance = detectPerformance();
+    const finalPerformance = userSetting === 'auto' ? autoPerformance : userSetting;
+    const config = PERFORMANCE_CONFIG[finalPerformance] || PERFORMANCE_CONFIG.medium;
+
+    console.log(`🌟 星空背景性能模式: ${finalPerformance} (用户设置: ${userSetting}, 自动检测: ${autoPerformance})`);
+
+    // 创建性能控制面板
+    function createControlPanel() {
+        const panel = document.createElement('div');
+        panel.id = 'space-bg-control';
+        panel.style.cssText = `
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            background: rgba(0,0,0,0.7);
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-family: monospace;
+            opacity: 0;
+            transition: opacity 0.3s;
+            pointer-events: none;
+        `;
+
+        panel.innerHTML = `
+            <div>🌟 背景动画: ${finalPerformance}</div>
+            <div>⭐ 星星数量: ${config.stars}</div>
+            <div>☄️ 流星: ${config.meteors ? '开启' : '关闭'}</div>
+            <div>✈️ 纸飞机: ${config.sparrows ? '开启' : '关闭'}</div>
+            <div style="margin-top: 8px; font-size: 10px; opacity: 0.7;">
+                按 Ctrl+Shift+S 切换设置
+            </div>
+        `;
+
+        document.body.appendChild(panel);
+
+        // 鼠标悬停显示
+        let showTimeout;
+        document.addEventListener('mousemove', function(e) {
+            if (e.clientX > window.innerWidth - 200 && e.clientY < 150) {
+                clearTimeout(showTimeout);
+                panel.style.opacity = '1';
+                panel.style.pointerEvents = 'auto';
+            } else {
+                showTimeout = setTimeout(() => {
+                    panel.style.opacity = '0';
+                    panel.style.pointerEvents = 'none';
+                }, 1000);
+            }
+        });
+
+        // 快捷键切换
+        document.addEventListener('keydown', function(e) {
+            if (e.ctrlKey && e.shiftKey && e.key === 'S') {
+                e.preventDefault();
+                const settings = ['auto', 'high', 'medium', 'low', 'off'];
+                const current = getUserSetting();
+                const currentIndex = settings.indexOf(current);
+                const nextSetting = settings[(currentIndex + 1) % settings.length];
+                saveUserSetting(nextSetting);
+                location.reload(); // 重新加载应用新设置
+            }
+        });
+
+        return panel;
+    }
+
+    // 如果用户设置为关闭，直接返回
+    if (userSetting === 'off') {
+        console.log('🌟 星空背景已关闭');
+        return;
+    }
+
+    // 创建控制面板
+    createControlPanel();
+
     // 创建canvas
     const canvas = document.createElement('canvas');
     canvas.id = 'space-bg-canvas';
@@ -11,6 +163,9 @@
     canvas.style.zIndex = 1; // header为100，内容为10+，此处1保证在背景但不覆盖导航
     canvas.style.pointerEvents = 'none';
     canvas.style.userSelect = 'none';
+    canvas.style.opacity = '0';
+    canvas.style.transition = 'opacity 1s ease-in-out';
+
     // 插入到header后面，避免覆盖导航栏
     const header = document.querySelector('header, .header, #header, .site-header');
     if (header && header.parentNode) {
@@ -18,13 +173,25 @@
     } else {
         document.body.prepend(canvas);
     }
+
     let ctx = canvas.getContext('2d');
     let stars = [];
     let w, h, dpr;
-    const STAR_NUM = 120;
+    const STAR_NUM = config.stars;
     const STAR_COLORS = ['#fff', '#ffe9c4', '#b5caff', '#ffd1fa'];
+
+    // 渐入显示
+    setTimeout(() => {
+        canvas.style.opacity = '1';
+    }, 500);
+    // 性能监控
+    let frameCount = 0;
+    let lastFpsCheck = Date.now();
+    let currentFps = 60;
+    let performanceWarning = false;
+
     function resize() {
-        dpr = window.devicePixelRatio || 1;
+        dpr = (window.devicePixelRatio || 1) * config.quality;
         w = window.innerWidth;
         h = window.innerHeight;
         canvas.width = w * dpr;
@@ -33,6 +200,33 @@
         canvas.style.height = h + 'px';
         ctx.setTransform(1, 0, 0, 1, 0, 0);
         ctx.scale(dpr, dpr);
+    }
+
+    // FPS监控和自适应调整
+    function monitorPerformance() {
+        frameCount++;
+        const now = Date.now();
+
+        if (now - lastFpsCheck >= 1000) {
+            currentFps = frameCount;
+            frameCount = 0;
+            lastFpsCheck = now;
+
+            // 如果FPS过低，自动降级
+            if (currentFps < 30 && !performanceWarning) {
+                performanceWarning = true;
+                console.warn('🌟 检测到性能问题，自动降低动画质量');
+
+                // 减少星星数量
+                if (stars.length > 30) {
+                    stars = stars.slice(0, Math.max(30, stars.length * 0.7));
+                }
+
+                // 降低画质
+                config.quality = Math.max(0.5, config.quality * 0.8);
+                resize();
+            }
+        }
     }
     resize();
     window.addEventListener('resize', resize);
@@ -454,18 +648,24 @@
         }
     }
     function draw() {
+        // 性能监控
+        monitorPerformance();
+
         ctx.clearRect(0,0,w,h);
         // 只在夜间绘制星星和月亮
         if (isNight) {
             frame++;
             // ====== 流星生成逻辑 ======
-            meteorTimer++;
-            // 每隔60~180帧随机生成一颗流星（约1~3秒一颗）
-            if (meteorTimer > 300 + Math.random() * 600) {
-                createMeteor();
-                meteorTimer = 0;
+            if (config.meteors) {
+                meteorTimer++;
+                // 根据性能调整流星生成频率
+                const meteorInterval = finalPerformance === 'high' ? 300 : 600;
+                if (meteorTimer > meteorInterval + Math.random() * 600) {
+                    createMeteor();
+                    meteorTimer = 0;
+                }
+                drawMeteors(); // 绘制流星
             }
-            drawMeteors(); // 绘制流星
             // ====== 星星和月亮 ======
             for (let s of stars) {
                 // 呼吸式闪烁
@@ -513,13 +713,16 @@
             // 白天山水
             drawMountains(false);
             // ====== 白天纸飞机逻辑 ======
-            sparrowTimer++;
-            // 每隔600帧（10秒）生成一只纸飞机
-            if (sparrowTimer > 600) {
-                createSparrow();
-                sparrowTimer = 0;
+            if (config.sparrows) {
+                sparrowTimer++;
+                // 根据性能调整纸飞机生成频率
+                const sparrowInterval = finalPerformance === 'high' ? 600 : 1200;
+                if (sparrowTimer > sparrowInterval) {
+                    createSparrow();
+                    sparrowTimer = 0;
+                }
+                drawSparrows();
             }
-            drawSparrows();
         }
         requestAnimationFrame(draw);
     }
