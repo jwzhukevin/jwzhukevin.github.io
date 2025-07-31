@@ -140,8 +140,8 @@ async function handlePageRequest(request) {
         
         // 返回离线页面
         return await caches.match(OFFLINE_PAGE) || new Response(
-            '<!DOCTYPE html><html><head><title>离线</title></head><body><h1>网络连接失败</h1><p>请检查网络连接后重试</p></body></html>',
-            { headers: { 'Content-Type': 'text/html' } }
+            '<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Offline</title></head><body><h1>Network Connection Failed</h1><p>Please check your network connection and try again</p></body></html>',
+            { headers: { 'Content-Type': 'text/html; charset=utf-8' } }
         );
     }
 }
@@ -171,8 +171,8 @@ async function handleAssetRequest(request) {
         if (request.url.includes('.jpg') || request.url.includes('.png') || request.url.includes('.webp')) {
             // 图片占位符
             return new Response(
-                '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300"><rect width="400" height="300" fill="#f0f0f0"/><text x="200" y="150" text-anchor="middle" fill="#999">图片加载失败</text></svg>',
-                { headers: { 'Content-Type': 'image/svg+xml' } }
+                '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300"><rect width="400" height="300" fill="#f0f0f0"/><text x="200" y="150" text-anchor="middle" fill="#999">Image Load Failed</text></svg>',
+                { headers: { 'Content-Type': 'image/svg+xml; charset=utf-8' } }
             );
         }
         
@@ -226,12 +226,12 @@ async function handleApiRequest(request) {
 async function handleOfflineRequest(request) {
     if (request.headers.get('accept')?.includes('text/html')) {
         return await caches.match(OFFLINE_PAGE) || new Response(
-            '<!DOCTYPE html><html><head><title>离线</title></head><body><h1>离线模式</h1><p>当前无网络连接</p></body></html>',
-            { headers: { 'Content-Type': 'text/html' } }
+            '<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Offline</title></head><body><h1>Offline Mode</h1><p>No network connection available</p></body></html>',
+            { headers: { 'Content-Type': 'text/html; charset=utf-8' } }
         );
     }
     
-    return new Response('离线', { status: 503, statusText: 'Service Unavailable' });
+    return new Response('Offline', { status: 503, statusText: 'Service Unavailable' });
 }
 
 // 判断是否为静态资源
