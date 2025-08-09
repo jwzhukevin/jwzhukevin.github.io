@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>前端工程 on 诸葛凯文</title>
+    <link>https://jwzhukevin.github.io/en/tags/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B/</link>
+    <description>Recent content in 前端工程 on 诸葛凯文</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 09 Aug 2025 21:10:00 +0800</lastBuildDate><atom:link href="https://jwzhukevin.github.io/en/tags/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Website_Building_Diary 20250809</title>
+      <link>https://jwzhukevin.github.io/en/posts/website_building_diary/website_building_diary-20250809/</link>
+      <pubDate>Sat, 09 Aug 2025 21:10:00 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/website_building_diary/website_building_diary-20250809/</guid>
+      <description>优化统计加载逻辑、启用面包屑导航与页面描述/标签、修复代码行号位移、规范评论方案与脚本引入顺序</description>
+    </item>
+    
+  </channel>
+</rss>

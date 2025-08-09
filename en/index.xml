@@ -6,7 +6,16 @@
     <description>Recent content on 诸葛凯文</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 30 May 2025 11:26:19 +0800</lastBuildDate><atom:link href="https://jwzhukevin.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Aug 2025 21:10:00 +0800</lastBuildDate><atom:link href="https://jwzhukevin.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Website_Building_Diary 20250809</title>
+      <link>https://jwzhukevin.github.io/en/posts/website_building_diary/website_building_diary-20250809/</link>
+      <pubDate>Sat, 09 Aug 2025 21:10:00 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/website_building_diary/website_building_diary-20250809/</guid>
+      <description>优化统计加载逻辑、启用面包屑导航与页面描述/标签、修复代码行号位移、规范评论方案与脚本引入顺序</description>
+    </item>
+    
     <item>
       <title>虾的挑选和处理</title>
       <link>https://jwzhukevin.github.io/en/posts/cooking/%E8%99%BE%E7%9A%84%E6%8C%91%E9%80%89%E5%92%8C%E5%A4%84%E7%90%86/</link>
