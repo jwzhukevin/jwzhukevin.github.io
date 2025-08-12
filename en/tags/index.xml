@@ -6,13 +6,40 @@
     <description>Recent content in 🧩 标签 on 诸葛凯文</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 09 Aug 2025 21:10:00 +0800</lastBuildDate><atom:link href="https://jwzhukevin.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Aug 2025 16:25:00 +0800</lastBuildDate><atom:link href="https://jwzhukevin.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git</title>
+      <link>https://jwzhukevin.github.io/en/tags/git/</link>
+      <pubDate>Tue, 12 Aug 2025 16:25:00 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GitHub Pages</title>
+      <link>https://jwzhukevin.github.io/en/tags/github-pages/</link>
+      <pubDate>Tue, 12 Aug 2025 16:25:00 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/tags/github-pages/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Hugo</title>
       <link>https://jwzhukevin.github.io/en/tags/hugo/</link>
-      <pubDate>Sat, 09 Aug 2025 21:10:00 +0800</pubDate>
+      <pubDate>Tue, 12 Aug 2025 16:25:00 +0800</pubDate>
       
       <guid>https://jwzhukevin.github.io/en/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>自动化</title>
+      <link>https://jwzhukevin.github.io/en/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</link>
+      <pubDate>Tue, 12 Aug 2025 16:25:00 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</guid>
       <description></description>
     </item>
     
@@ -175,15 +202,6 @@
       <pubDate>Wed, 27 Nov 2024 10:24:27 +0800</pubDate>
       
       <guid>https://jwzhukevin.github.io/en/tags/yaml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Git</title>
-      <link>https://jwzhukevin.github.io/en/tags/git/</link>
-      <pubDate>Tue, 26 Nov 2024 15:57:03 +0800</pubDate>
-      
-      <guid>https://jwzhukevin.github.io/en/tags/git/</guid>
       <description></description>
     </item>
     

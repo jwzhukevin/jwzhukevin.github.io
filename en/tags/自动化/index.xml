@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>自动化 on 诸葛凯文</title>
+    <link>https://jwzhukevin.github.io/en/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</link>
+    <description>Recent content in 自动化 on 诸葛凯文</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 12 Aug 2025 16:25:00 +0800</lastBuildDate><atom:link href="https://jwzhukevin.github.io/en/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Website_Building_Diary 20250812</title>
+      <link>https://jwzhukevin.github.io/en/posts/website_building_diary/website_building_diary-20250812/</link>
+      <pubDate>Tue, 12 Aug 2025 16:25:00 +0800</pubDate>
+      
+      <guid>https://jwzhukevin.github.io/en/posts/website_building_diary/website_building_diary-20250812/</guid>
+      <description>为博客新增三段发布脚本：源码推送、静态站点推送，以及一键源&#43;静态的总控脚本。逐行解释实现细节，记录踩坑与设计取舍。</description>
+    </item>
+    
+  </channel>
+</rss>
