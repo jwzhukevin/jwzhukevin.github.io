@@ -161,8 +161,7 @@
             if (!CONFIG.preload.fonts) return;
             
             const fonts = [
-                '/fonts/MaShanZheng-Regular.ttf',
-                '/fonts/NeverMindHand-Regular.ttf'
+                // 保留但默认不预加载，以避免无引用字体产生额外请求
             ];
             
             fonts.forEach(font => {
